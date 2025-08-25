@@ -2042,11 +2042,24 @@
 				)
 			)
 		)
+		(property "Digikey" "277-1134-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6971ec54-49e0-48a4-8cbc-f7c7becf3db2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2665c2a4-5e69-4ff1-9a89-37832d7bc688")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 38.22 -5.32)
 			(end 38.22 4.72)
@@ -3964,11 +3977,24 @@
 				)
 			)
 		)
+		(property "Digikey" "277-1128-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7feded9-493e-4da7-8f68-ab571c0c749a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/97914cc6-a8fd-43c9-a731-a54d26b2ca66")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.66 -5.32)
 			(end -2.66 4.72)
@@ -4996,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-10.0KFR"
+		(property "Digikey" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5709,11 +5735,24 @@
 				)
 			)
 		)
+		(property "Digikey" "SAM8940-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33a76c3a-dd24-4a83-8435-924c34d0f690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/11cbce99-0184-4f1a-b877-a4185f56d357")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 5.84 3.685)
 			(end 5.84 -3.685)
@@ -6629,10 +6668,23 @@
 				)
 			)
 		)
+		(property "Digikey" "36-3519-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5624395-b66d-4a6f-8e1d-63dbbbb35f4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3add4ad7-a1cf-4030-8751-fdfde3681e2d")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 2.745 1.165)
 			(end 2.745 2.195)
@@ -8951,11 +9003,24 @@
 				)
 			)
 		)
+		(property "Digikey" "1470-1117-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94bf1a00-cd2a-487c-bb69-785541f6deee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "RELAY4_ECE10_XPR")
 		(path "/3bc60143-ada2-4f80-bb2a-aa84afde7d66")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 35.687 21.937)
 			(end -2.667 21.937)
@@ -9858,11 +9923,24 @@
 				)
 			)
 		)
+		(property "Digikey" "495-4636-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b06384b-600f-4d6e-bba4-9f26bbe972a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/f5fa0c73-b84d-47f8-8327-288fd0178b10")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2 4.1)
 			(end 7 4.1)
@@ -10645,11 +10723,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106672-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c42dfb-1bfb-41fd-9bcc-944d0b2b371b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f54d6c7c-5644-4698-ac58-f4db86eb9bbb")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3.85 -2.8)
 			(end 3.85 2.3)
@@ -10919,11 +11010,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106401-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bba7557-34dd-427d-8d07-0e305ddb7ea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ea28fa62-42f0-4d22-a741-c4351e158299")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.39 -2.8)
 			(end 6.39 2.3)
@@ -14275,11 +14379,24 @@
 				)
 			)
 		)
+		(property "Digikey" "255-ALDP112-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fcdda23-80ad-4013-8e30-12bfef2ecfc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PAN_ALD_PAN")
 		(path "/4ad4c144-3ae4-415b-8063-b772c13e3102")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.3833 19.685)
 			(end -1.3833 -1.0668)
@@ -15097,11 +15214,24 @@
 				)
 			)
 		)
+		(property "Digikey" "ED10523-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c1fc199-8398-4be9-bb1b-267abdd4bce7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d30a5b95-c6e6-4889-a729-d64ac0542f73")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -3.29 22.99)
 			(end -3.29 -5.21)
@@ -15691,7 +15821,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-51.0KFR"
+		(property "Digikey" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17944,10 +18074,23 @@
 				)
 			)
 		)
+		(property "Digikey" "1212-1393-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f38c111-003a-4389-a582-760371e43102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6838766d-ae3b-4bfc-9ac7-58bdbb602e77")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole allow_missing_courtyard)
+		(attr through_hole exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 12.83 -5.24)
 			(end 12.83 -2.03)
@@ -22354,10 +22497,23 @@
 				)
 			)
 		)
+		(property "Digikey" "36-3519-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bce402fb-ed52-4dcd-8905-1692f2171461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8d5a5bea-11de-4bf7-a723-4c88baa95fd5")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.745 -2.195)
 			(end -2.745 -1.535)
@@ -23495,11 +23651,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106401-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f76965a5-3d97-4333-b0c1-d07bc60343f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f3c813ee-b95c-438a-84b1-30c551495322")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.39 -2.8)
 			(end 6.39 2.3)
@@ -24474,11 +24643,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106401-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a2da4c2-9e5d-48ad-97ee-4d8ebfcf0211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ac590229-9601-43bd-9fb1-3adb9914aa7c")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.39 -2.8)
 			(end 6.39 2.3)
@@ -24749,11 +24931,24 @@
 				)
 			)
 		)
+		(property "Digikey" "255-ALDP112-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2dbef3a-a2a1-46df-91da-0a302d725afb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PAN_ALD_PAN")
 		(path "/d84a916a-6fa4-4a73-a442-2ead3f01035c")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.3833 19.685)
 			(end -1.3833 -1.0668)
@@ -26178,7 +26373,7 @@
 				)
 			)
 		)
-		(property "Digikey" "732-12286"
+		(property "Digikey" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26943,11 +27138,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106401-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "138f3c4f-08ab-4133-b7a9-f46a94621919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7ae75cdb-7412-4248-977e-04c85d44d3bf")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.39 -2.8)
 			(end 6.39 2.3)
@@ -27922,11 +28130,24 @@
 				)
 			)
 		)
+		(property "Digikey" "ED10523-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d457f34-e99c-4ce9-aedc-575416d043bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c26d98f9-0ec8-43cd-a0e1-5d4e8be57662")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 5.83 22.99)
 			(end -3.29 22.99)
@@ -28538,11 +28759,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106672-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eeb6f58-ac4e-478f-9e7c-0db5b3658abb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7649c34a-7fba-4291-b3ea-b7e8e326689e")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3.85 -2.8)
 			(end 3.85 2.3)
@@ -32075,11 +32309,24 @@
 				)
 			)
 		)
+		(property "Digikey" "PB1693-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43bcfa61-9723-407c-b622-23ae03c91d8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Relay*SPDT*Schrack*RT1*16A*FormC*RM5mm*")
 		(path "/14842e44-21bd-4168-8269-42362b9fa386")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.75 1.5)
 			(end -2.75 3)
@@ -32752,11 +32999,24 @@
 				)
 			)
 		)
+		(property "Digikey" "255-ALDP112-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d67c60-f586-4db9-aed6-0eeebbc6c746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PAN_ALD_PAN")
 		(path "/aca548b9-8d09-4927-b9a7-222f1d71811f")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.3833 19.685)
 			(end -1.3833 -1.0668)
@@ -33058,6 +33318,7 @@
 		(path "/346feed5-04bc-4bc2-9b7f-ac47bbeca2e4")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.071833 -13.153668) (xy -0.067823 -13.153354) (xy -0.06393 -13.152855) (xy -0.060151 -13.152167)
@@ -34337,7 +34598,7 @@
 				)
 			)
 		)
-		(property "Value" "Phoenix 1757128"
+		(property "Value" "Phoenix 1758128"
 			(at 30.48 5.72 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34373,11 +34634,24 @@
 				)
 			)
 		)
+		(property "Digikey" "277-16612-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4389bea-2597-43c7-9b6f-b136bb8bbd9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2d300b2d-e77d-4332-b6d0-cbee8b92388f")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.66 4.72)
 			(end -0.3 4.72)
@@ -37077,11 +37351,24 @@
 				)
 			)
 		)
+		(property "Digikey" "A106672-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76046950-2b64-402f-9820-fbb47ebaa968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1a04d05c-d53b-4ade-bd08-c9aa0cb27c67")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3.85 2.3)
 			(end -3.85 2.3)
@@ -37978,7 +38265,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-10.0KFR"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40774,7 +41061,7 @@
 				)
 			)
 		)
-		(property "Digikey" "296-37172"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41961,7 +42248,7 @@
 				)
 			)
 		)
-		(property "Digikey" "296-37172"
+		(property "Digikey" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42296,7 +42583,7 @@
 		(path "/6ee53e3a-65b0-40cc-8508-91d038675fd1")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 1.25 -3.5)
 			(end 0.5 -2.5)
@@ -43390,11 +43677,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Digikey" "HR1941CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f381b9f-d956-4fb8-b125-70150dbf56e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "microSD*")
 		(path "/a57cf96e-3d5f-454a-837d-1353bb1e62c7")
 		(sheetname "/")
 		(sheetfile "apec-carrier-lm-gs3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -6.435 1.375)
 			(end -6.435 -4.225)
