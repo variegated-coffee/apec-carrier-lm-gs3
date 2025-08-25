@@ -1553,7 +1553,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,7 +1571,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1589,7 +1589,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1645,7 +1645,7 @@
 							)
 						)
 					)
-					(number "111"
+					(number "104"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 							)
 						)
 					)
-					(number "110"
+					(number "103"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 							)
 						)
 					)
-					(number "109"
+					(number "102"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1699,7 +1699,7 @@
 							)
 						)
 					)
-					(number "108"
+					(number "101"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1717,7 +1717,7 @@
 							)
 						)
 					)
-					(number "107"
+					(number "100"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1735,7 +1735,7 @@
 							)
 						)
 					)
-					(number "106"
+					(number "99"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 							)
 						)
 					)
-					(number "105"
+					(number "98"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 							)
 						)
 					)
-					(number "104"
+					(number "97"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1789,7 +1789,7 @@
 							)
 						)
 					)
-					(number "103"
+					(number "96"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 							)
 						)
 					)
-					(number "102"
+					(number "95"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1825,7 +1825,7 @@
 							)
 						)
 					)
-					(number "101"
+					(number "94"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1843,7 +1843,7 @@
 							)
 						)
 					)
-					(number "100"
+					(number "93"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1861,7 +1861,7 @@
 							)
 						)
 					)
-					(number "99"
+					(number "92"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1879,7 +1879,7 @@
 							)
 						)
 					)
-					(number "98"
+					(number "91"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1897,7 +1897,7 @@
 							)
 						)
 					)
-					(number "97"
+					(number "90"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 							)
 						)
 					)
-					(number "96"
+					(number "89"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 							)
 						)
 					)
-					(number "95"
+					(number "88"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 							)
 						)
 					)
-					(number "94"
+					(number "87"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 							)
 						)
 					)
-					(number "91"
+					(number "86"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 							)
 						)
 					)
-					(number "90"
+					(number "85"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2005,7 +2005,7 @@
 							)
 						)
 					)
-					(number "89"
+					(number "84"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 							)
 						)
 					)
-					(number "88"
+					(number "83"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 							)
 						)
 					)
-					(number "87"
+					(number "82"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2077,7 +2077,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2095,7 +2095,7 @@
 							)
 						)
 					)
-					(number "86"
+					(number "81"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2113,7 +2113,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 							)
 						)
 					)
-					(number "85"
+					(number "80"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2167,7 +2167,7 @@
 							)
 						)
 					)
-					(number "84"
+					(number "79"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2185,7 +2185,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 							)
 						)
 					)
-					(number "83"
+					(number "78"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2221,7 +2221,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 							)
 						)
 					)
-					(number "82"
+					(number "77"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2275,7 +2275,7 @@
 							)
 						)
 					)
-					(number "81"
+					(number "76"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2293,7 +2293,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2311,7 +2311,7 @@
 							)
 						)
 					)
-					(number "80"
+					(number "75"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2329,7 +2329,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2347,7 +2347,7 @@
 							)
 						)
 					)
-					(number "79"
+					(number "74"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2365,7 +2365,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2383,7 +2383,7 @@
 							)
 						)
 					)
-					(number "78"
+					(number "73"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2401,7 +2401,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2419,7 +2419,7 @@
 							)
 						)
 					)
-					(number "77"
+					(number "72"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2437,7 +2437,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2455,7 +2455,7 @@
 							)
 						)
 					)
-					(number "76"
+					(number "71"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2491,7 +2491,7 @@
 							)
 						)
 					)
-					(number "75"
+					(number "70"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2527,7 +2527,7 @@
 							)
 						)
 					)
-					(number "74"
+					(number "69"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2545,7 +2545,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 							)
 						)
 					)
-					(number "73"
+					(number "68"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2581,7 +2581,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 							)
 						)
 					)
-					(number "72"
+					(number "67"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2617,7 +2617,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 							)
 						)
 					)
-					(number "71"
+					(number "66"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 							)
 						)
 					)
-					(number "70"
+					(number "65"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2689,7 +2689,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2707,7 +2707,7 @@
 							)
 						)
 					)
-					(number "69"
+					(number "64"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2743,7 +2743,7 @@
 							)
 						)
 					)
-					(number "68"
+					(number "63"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2779,7 +2779,7 @@
 							)
 						)
 					)
-					(number "67"
+					(number "62"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2797,7 +2797,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2815,7 +2815,7 @@
 							)
 						)
 					)
-					(number "66"
+					(number "61"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 							)
 						)
 					)
-					(number "29"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2851,7 +2851,7 @@
 							)
 						)
 					)
-					(number "65"
+					(number "60"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2869,7 +2869,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2887,7 +2887,7 @@
 							)
 						)
 					)
-					(number "64"
+					(number "59"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2905,7 +2905,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 							)
 						)
 					)
-					(number "63"
+					(number "58"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2941,7 +2941,7 @@
 							)
 						)
 					)
-					(number "32"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 							)
 						)
 					)
-					(number "62"
+					(number "57"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2977,7 +2977,7 @@
 							)
 						)
 					)
-					(number "33"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2995,7 +2995,7 @@
 							)
 						)
 					)
-					(number "61"
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3013,7 +3013,7 @@
 							)
 						)
 					)
-					(number "34"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3031,7 +3031,7 @@
 							)
 						)
 					)
-					(number "60"
+					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 							)
 						)
 					)
-					(number "35"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3067,7 +3067,7 @@
 							)
 						)
 					)
-					(number "59"
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3085,7 +3085,7 @@
 							)
 						)
 					)
-					(number "58"
+					(number "53"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3103,7 +3103,7 @@
 							)
 						)
 					)
-					(number "38"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3121,7 +3121,7 @@
 							)
 						)
 					)
-					(number "39"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3139,7 +3139,7 @@
 							)
 						)
 					)
-					(number "40"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3157,7 +3157,7 @@
 							)
 						)
 					)
-					(number "41"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3175,7 +3175,7 @@
 							)
 						)
 					)
-					(number "42"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3193,7 +3193,7 @@
 							)
 						)
 					)
-					(number "43"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3211,7 +3211,7 @@
 							)
 						)
 					)
-					(number "44"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3229,7 +3229,7 @@
 							)
 						)
 					)
-					(number "45"
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3247,7 +3247,7 @@
 							)
 						)
 					)
-					(number "46"
+					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3265,7 +3265,7 @@
 							)
 						)
 					)
-					(number "47"
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 							)
 						)
 					)
-					(number "48"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 							)
 						)
 					)
-					(number "49"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3319,7 +3319,7 @@
 							)
 						)
 					)
-					(number "50"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 							)
 						)
 					)
-					(number "51"
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 							)
 						)
 					)
-					(number "52"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3373,7 +3373,7 @@
 							)
 						)
 					)
-					(number "53"
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3391,7 +3391,7 @@
 							)
 						)
 					)
-					(number "54"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 							)
 						)
 					)
-					(number "55"
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14528,6 +14528,16 @@
 		)
 		(uuid "6d42506d-9e72-416e-93d6-b61a1a69f4d2")
 	)
+	(text "I2C1\nAddress 0x21"
+		(exclude_from_sim no)
+		(at 501.65 580.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72c0f187-a247-4c91-b3b3-f4439971f07c")
+	)
 	(text "ENC_CLK"
 		(exclude_from_sim no)
 		(at 555.752 469.138 0)
@@ -14538,6 +14548,16 @@
 			(justify left)
 		)
 		(uuid "824b87e9-8797-4c25-a954-120de799b905")
+	)
+	(text "I2C0\nAddress 0x68"
+		(exclude_from_sim no)
+		(at 815.594 635.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "859c532f-6d84-4714-b65b-b1683242895c")
 	)
 	(text "BUTTON_WATER"
 		(exclude_from_sim no)
@@ -14601,6 +14621,16 @@
 		)
 		(uuid "dc70ca18-d8b4-481d-afa3-bd0812a73dd7")
 	)
+	(text "I2C1\nAddress 0x20"
+		(exclude_from_sim no)
+		(at 586.486 581.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd061b52-5ad1-4935-8924-3fa1d055670a")
+	)
 	(text "TACHO OUT has to be a PWM B pin, if you want to use \nthe PWM to measure frequency. If so, the A pin should \nnot be used for PWM. GP33 is a B pin."
 		(exclude_from_sim no)
 		(at 117.602 156.464 0)
@@ -14631,6 +14661,27 @@
 			)
 		)
 		(uuid "e61f281b-ee5c-4a7d-a82c-12e30da21cc6")
+	)
+	(text "I2C Address summary\n\nI2C0\n\n0x68: DS3231\n\nI2C1:\n\n0x20: MCP23017 - Buttons\n0x21: MCP23017 - Display\n0x40: TLC59108\n0x50: FDC1004\n"
+		(exclude_from_sim no)
+		(at 195.326 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f033bbd8-961e-45f4-9f8b-ad2b6fc80c87")
+	)
+	(text "I2C1\nAddress 0x40"
+		(exclude_from_sim no)
+		(at 552.196 617.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6476b08-600f-49e2-a358-7fdc546fecd4")
 	)
 	(junction
 		(at 444.5 478.79)
@@ -25753,7 +25804,7 @@
 		(at 885.19 331.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "11cbce99-0184-4f1a-b877-a4185f56d357")
@@ -25817,6 +25868,14 @@
 			)
 		)
 		(property "LCSC" "C17671197"
+			(at 885.19 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8940-ND"
 			(at 885.19 331.47 0)
 			(effects
 				(font
@@ -26444,7 +26503,7 @@
 		(at 638.81 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26495,6 +26554,14 @@
 			)
 		)
 		(property "LCSC" "C1524780"
+			(at 638.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "PB1693-ND"
 			(at 638.81 91.44 0)
 			(effects
 				(font
@@ -27034,7 +27101,7 @@
 		(at 834.39 642.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -27100,6 +27167,14 @@
 			)
 		)
 		(property "LCSC" "C86459"
+			(at 834.39 642.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "A106672-ND"
 			(at 834.39 642.62 0)
 			(effects
 				(font
@@ -28188,7 +28263,7 @@
 		(at 721.36 472.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -28239,6 +28314,14 @@
 			)
 		)
 		(property "LCSC" "C5478275"
+			(at 721.36 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "277-1134-ND"
 			(at 721.36 472.44 0)
 			(effects
 				(font
@@ -28670,7 +28753,7 @@
 		(at 721.36 439.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -28684,7 +28767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Phoenix 1757128"
+		(property "Value" "Phoenix 1758128"
 			(at 723.9 440.6899 0)
 			(effects
 				(font
@@ -28718,6 +28801,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Digikey" "277-16612-ND"
+			(at 721.36 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -29231,7 +29322,7 @@
 		(at 928.37 534.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29638,7 +29729,7 @@
 		(at 332.74 617.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29747,6 +29838,14 @@
 				)
 			)
 		)
+		(property "Digikey" "36-3519-ND"
+			(at 332.74 617.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1_1"
 			(uuid "28239aef-17e7-4d4d-8839-682a7b1eb941")
 		)
@@ -29835,7 +29934,7 @@
 		(at 401.32 610.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29886,6 +29985,14 @@
 			)
 		)
 		(property "LCSC" "C6611438"
+			(at 401.32 610.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1470-1117-ND"
 			(at 401.32 610.87 0)
 			(effects
 				(font
@@ -31214,7 +31321,7 @@
 		(at 868.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -31265,6 +31372,14 @@
 			)
 		)
 		(property "LCSC" "C115718"
+			(at 868.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "255-ALDP112-ND"
 			(at 868.68 55.88 0)
 			(effects
 				(font
@@ -31661,7 +31776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "732-12286"
+		(property "Digikey" ""
 			(at 822.96 312.42 0)
 			(effects
 				(font
@@ -33065,7 +33180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-51.0KFR"
+		(property "Digikey" ""
 			(at 817.88 309.88 0)
 			(effects
 				(font
@@ -34672,7 +34787,7 @@
 		(at 142.24 558.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -34729,6 +34844,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 142.24 558.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1212-1393-ND"
 			(at 142.24 558.8 0)
 			(effects
 				(font
@@ -35357,7 +35480,7 @@
 		(at 73.66 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -35424,22 +35547,22 @@
 		(pin "6"
 			(uuid "77a72e79-2ac6-46ed-948a-511ba3f88225")
 		)
-		(pin "111"
+		(pin "1"
 			(uuid "ff53146e-0b6c-4562-a805-cf782b54d29c")
 		)
-		(pin "110"
+		(pin "93"
 			(uuid "18c23c97-7082-4ecd-92d2-db0f5e054693")
 		)
-		(pin "109"
+		(pin "92"
 			(uuid "c24ecbc4-0cdc-4707-ae2b-5ed9dcc7286d")
 		)
-		(pin "108"
+		(pin "57"
 			(uuid "b6cccadb-141b-436c-96bd-685908050408")
 		)
-		(pin "107"
+		(pin "56"
 			(uuid "97cbc1c1-3707-40e5-bd90-7961d23b4b95")
 		)
-		(pin "106"
+		(pin "36"
 			(uuid "196f93bc-81ab-45ad-acad-088bfdd04991")
 		)
 		(pin "5"
@@ -35454,7 +35577,7 @@
 		(pin "2"
 			(uuid "1319f979-e2fc-471d-b2af-d9cfbcf2e379")
 		)
-		(pin "105"
+		(pin "37"
 			(uuid "4b4103e5-d5ca-43d5-bc39-a8b7211657cd")
 		)
 		(pin "104"
@@ -36182,7 +36305,7 @@
 		(at 808.99 406.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -36248,6 +36371,14 @@
 			)
 		)
 		(property "LCSC" "C86459"
+			(at 808.99 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "A106672-ND"
 			(at 808.99 406.4 0)
 			(effects
 				(font
@@ -36854,7 +36985,7 @@
 		(at 1078.23 715.01 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -36899,6 +37030,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Digikey" "A106401-ND"
+			(at 1078.23 715.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -38402,7 +38541,7 @@
 		(at 332.74 607.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -38504,6 +38643,14 @@
 			)
 		)
 		(property "LCSC" "C3203912"
+			(at 332.74 607.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "36-3519-ND"
 			(at 332.74 607.06 0)
 			(effects
 				(font
@@ -39483,7 +39630,7 @@
 		(at 720.09 400.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -39550,6 +39697,14 @@
 			)
 		)
 		(property "LCSC" "C480578"
+			(at 720.09 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "277-1128-ND"
 			(at 720.09 400.05 0)
 			(effects
 				(font
@@ -39698,7 +39853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-37172"
+		(property "Digikey" ""
 			(at 792.48 349.25 0)
 			(effects
 				(font
@@ -40119,7 +40274,7 @@
 		(at 513.08 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -40191,6 +40346,14 @@
 				)
 			)
 		)
+		(property "Digikey" "HR1941CT-ND"
+			(at 513.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42f869e5-1b46-44dc-aa6e-fbd54c881060")
 		)
@@ -40238,7 +40401,7 @@
 		(at 996.95 715.01 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -40286,6 +40449,14 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "A106401-ND"
+			(at 996.95 715.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3c24abe1-20b3-4270-9e1a-07905bddaaab")
 		)
@@ -40312,7 +40483,7 @@
 		(at 789.94 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -40363,6 +40534,14 @@
 			)
 		)
 		(property "LCSC" "C115718"
+			(at 789.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "255-ALDP112-ND"
 			(at 789.94 55.88 0)
 			(effects
 				(font
@@ -41032,7 +41211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-10.0KFR"
+		(property "Digikey" ""
 			(at 770.89 314.96 0)
 			(effects
 				(font
@@ -42429,7 +42608,7 @@
 		(at 642.62 464.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -42478,6 +42657,14 @@
 			)
 		)
 		(property "LCSC" "C3406"
+			(at 642.62 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "ED10523-ND"
 			(at 642.62 464.82 0)
 			(effects
 				(font
@@ -42605,7 +42792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-10.0KFR"
+		(property "Digikey" ""
 			(at 770.89 354.33 0)
 			(effects
 				(font
@@ -43270,7 +43457,7 @@
 		(at 607.06 433.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -43319,6 +43506,14 @@
 			)
 		)
 		(property "LCSC" "C3406"
+			(at 607.06 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "ED10523-ND"
 			(at 607.06 433.07 0)
 			(effects
 				(font
@@ -44034,7 +44229,7 @@
 		(at 702.31 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -44085,6 +44280,14 @@
 			)
 		)
 		(property "LCSC" "C115718"
+			(at 702.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "255-ALDP112-ND"
 			(at 702.31 59.69 0)
 			(effects
 				(font
@@ -44864,7 +45067,7 @@
 		(at 334.01 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ea28fa62-42f0-4d22-a741-c4351e158299")
@@ -44929,6 +45132,14 @@
 			)
 		)
 		(property "LCSC" "C306081"
+			(at 334.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "A106401-ND"
 			(at 334.01 34.29 0)
 			(effects
 				(font
@@ -45741,7 +45952,7 @@
 		(at 334.01 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3c813ee-b95c-438a-84b1-30c551495322")
@@ -45806,6 +46017,14 @@
 			)
 		)
 		(property "LCSC" "C306081"
+			(at 334.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "A106401-ND"
 			(at 334.01 73.66 0)
 			(effects
 				(font
@@ -46116,7 +46335,7 @@
 		(at 808.99 434.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -46189,6 +46408,14 @@
 				)
 			)
 		)
+		(property "Digikey" "A106672-ND"
+			(at 808.99 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7bdd6cfe-da58-4a90-8b5a-0a263139a59b")
 		)
@@ -46209,7 +46436,7 @@
 		(at 394.97 603.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5fa0c73-b84d-47f8-8327-288fd0178b10")
@@ -46310,6 +46537,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Digikey" "495-4636-ND"
+			(at 394.97 603.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -46756,7 +46991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-37172"
+		(property "Digikey" ""
 			(at 792.48 309.88 0)
 			(effects
 				(font
