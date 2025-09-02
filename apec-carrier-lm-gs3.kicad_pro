@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -188,7 +188,8 @@
       "track_widths": [
         0.0,
         0.4,
-        0.8
+        0.8,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -496,7 +497,7 @@
         "track_width": 0.4
       },
       {
-        "clearance": 2.48,
+        "clearance": 2.4,
         "name": "230VAC-16A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -504,7 +505,7 @@
         "track_width": 2.5
       },
       {
-        "clearance": 2.48,
+        "clearance": 2.4,
         "name": "230VAC-5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -542,6 +543,9 @@
         "PWR_DIST"
       ],
       "+5V": [
+        "PWR_DIST"
+      ],
+      "AUX_VCC": [
         "PWR_DIST"
       ],
       "FILL_SOLENOID": [
@@ -614,7 +618,7 @@
         "PWR_DIST"
       ],
       "USB_VBUS": [
-        "5V"
+        "PWR_DIST"
       ],
       "VIN": [
         "12V-1A"
@@ -866,7 +870,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Digikey"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
