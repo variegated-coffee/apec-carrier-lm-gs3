@@ -1,4 +1,4 @@
-44390545439783132
+44390595258255119
 3519
 FUSE_3519
 
@@ -55,34 +55,6 @@ APEC_SoM_THT
 0
 104
 104
-APEC_SoM
-Femtoprobe
-
-
-0
-8
-8
-APEC_SoM
-Femtoprobe SMT
-
-
-0
-8
-8
-APEC_SoM
-VariegatedCoffeeLogo_Micro
-
-
-0
-0
-0
-APEC_SoM
-VariegatedCoffeeLogo_Small
-
-
-0
-0
-0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57385,6 +57357,20 @@ ECE10US05
 0
 4
 4
+Femtoprobe
+Femtoprobe
+
+
+0
+8
+8
+Femtoprobe
+Femtoprobe SMT
+
+
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -177792,6 +177778,20 @@ valve
 0
 9
 8
+VariegatedCoffeeLogo
+VariegatedCoffeeLogo_Micro
+
+
+0
+0
+0
+VariegatedCoffeeLogo
+VariegatedCoffeeLogo_Small
+
+
+0
+0
+0
 Varistor
 RV_Disc_D7mm_W3.4mm_P5mm
 Varistor, diameter 7mm, width 3.4mm, pitch 5mm

@@ -22,4 +22,6 @@
   (lib (name "TE_280370-1")(type "KiCad")(uri "${KIPRJMOD}/TE_280370-1")(options "")(descr ""))
   (lib (name "ECE10")(type "KiCad")(uri "${KIPRJMOD}/ECE10US12/footprints.pretty")(options "")(descr ""))
   (lib (name "APEC_SoM")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/APEC_SoM.pretty")(options "")(descr ""))
+  (lib (name "Femtoprobe")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/Femtoprobe.pretty")(options "")(descr ""))
+  (lib (name "VariegatedCoffeeLogo")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/VariegatedCoffeeLogo.pretty")(options "")(descr ""))
 )
