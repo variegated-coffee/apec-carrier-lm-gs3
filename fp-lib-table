@@ -24,4 +24,6 @@
   (lib (name "APEC_SoM")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/APEC_SoM.pretty")(options "")(descr ""))
   (lib (name "Femtoprobe")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/Femtoprobe.pretty")(options "")(descr ""))
   (lib (name "VariegatedCoffeeLogo")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/VariegatedCoffeeLogo.pretty")(options "")(descr ""))
+  (lib (name "IX4427N")(type "KiCad")(uri "${KIPRJMOD}/IX4427N")(options "")(descr ""))
+  (lib (name "ul_PTS815-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/ul_PTS815-SJM-250-SMTR-LFS.pretty")(options "")(descr ""))
 )

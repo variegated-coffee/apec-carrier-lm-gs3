@@ -12,3 +12,8 @@
   * If you really want to, and have a bodge wire, you could even shift it to 12V.
 * Added and moved various silk screen texts
 * Added two on-board LEDs, connected to the TLC59108 LED driver
+* Added pull-down resistors for all relays and SSRs, to ensure the pumps, heating elements etc start as off
+* Added 10K pull to ground instead of direct ground connection for tank ref
+* Added 100R to 5V to keypad connector, to be isomorphic with the original board
+* Added true 24V section, with FETs and gate driver to drive 24V proportional solenoids
+* Changed DC-de-biasing cap to 68 pF, based on experimentation
