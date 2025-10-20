@@ -15,5 +15,8 @@
 * Added pull-down resistors for all relays and SSRs, to ensure the pumps, heating elements etc start as off
 * Added 10K pull to ground instead of direct ground connection for tank ref
 * Added 100R to 5V to keypad connector, to be isomorphic with the original board
+* Changed SD Card to use SPI instead of SDIO (freeing up IO)
 * Added true 24V section, with FETs and gate driver to drive 24V proportional solenoids
 * Changed DC-de-biasing cap to 68 pF, based on experimentation
+* Added LED indicators to SSR outputs, mechanical relay outputs, and 24V outputs. Switched signal FETs to dual FETs to drive the LEDs.
+* Added two additional auxilliary connectors, one of which has a (by default inoperable) voltage divider 

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -105,7 +105,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "ignore",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
@@ -136,7 +136,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -222,6 +222,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -597,11 +605,17 @@
       "Net-(D9-A)": [
         "12V-1A"
       ],
+      "Net-(FB1-Pad1)": [
+        "PWR_DIST"
+      ],
       "Net-(J20-Pin_13)": [
         "PWR_DIST"
       ],
       "Net-(J6-Pin_1)": [
         "230V_5A"
+      ],
+      "Net-(J7-Pin_1)": [
+        "PWR_DIST"
       ],
       "Net-(Q11-G)": [
         "24V-2A"

@@ -13,4 +13,5 @@
   (lib (name "APEC_SoM")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/APEC_SoM.kicad_sym")(options "")(descr ""))
   (lib (name "Femtoprobe")(type "KiCad")(uri "/Users/magnus/Developer/open-lcc/kicad-footprints/Femtoprobe.kicad_sym")(options "")(descr ""))
   (lib (name "IX4427N")(type "KiCad")(uri "${KIPRJMOD}/IX4427N/IX4427N.kicad_sym")(options "")(descr ""))
+  (lib (name "ECLAMP8052P.TCT")(type "KiCad")(uri "${KIPRJMOD}/ECLAMP8052P_TCT/ECLAMP8052P.TCT.kicad_sym")(options "")(descr ""))
 )
