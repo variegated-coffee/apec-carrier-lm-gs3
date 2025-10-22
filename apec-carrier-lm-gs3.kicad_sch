@@ -14802,7 +14802,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1"
+		(symbol "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -14819,7 +14819,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_Dual_NMOS_G1S2G2D2S1D1"
+			(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -14864,7 +14864,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_0_1"
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -15031,7 +15031,7 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_1_1"
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -15042,7 +15042,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15078,7 +15078,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15087,7 +15087,7 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_2_1"
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_2_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -15098,7 +15098,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15116,7 +15116,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15134,7 +15134,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16758,6 +16758,12 @@
 		(uuid "61d32261-e164-4d22-8171-492e78f11d43")
 	)
 	(junction
+		(at 543.56 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6283f1c3-6607-4613-b2cc-7756e914aee0")
+	)
+	(junction
 		(at 703.58 529.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17164,12 +17170,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc998412-78c5-4fb6-b71a-539a52bbcb83")
-	)
-	(junction
-		(at 571.5 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcdd70f1-5b6d-4735-a526-e198fee1dae2")
 	)
 	(junction
 		(at 615.95 82.55)
@@ -18158,16 +18158,6 @@
 			(type default)
 		)
 		(uuid "27718c33-ff6c-4f50-adce-d5e82e3042c7")
-	)
-	(wire
-		(pts
-			(xy 571.5 72.39) (xy 575.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27afcbc9-fe09-4076-9776-14724eff4e1d")
 	)
 	(wire
 		(pts
@@ -19431,16 +19421,6 @@
 	)
 	(wire
 		(pts
-			(xy 571.5 76.2) (xy 571.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d72370-550d-4b82-bb93-57627e771ef4")
-	)
-	(wire
-		(pts
 			(xy 434.34 478.79) (xy 434.34 480.06)
 		)
 		(stroke
@@ -19558,6 +19538,16 @@
 			(type default)
 		)
 		(uuid "6e2c6c99-2de4-4d8e-9b49-fc43d0e54d77")
+	)
+	(wire
+		(pts
+			(xy 543.56 157.48) (xy 547.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f01c00e-61cb-4e07-aaa7-598068460547")
 	)
 	(wire
 		(pts
@@ -20378,16 +20368,6 @@
 			(type default)
 		)
 		(uuid "8f9883b4-18d0-447a-aed0-7e9d9d8894df")
-	)
-	(wire
-		(pts
-			(xy 571.5 68.58) (xy 571.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fadd168-23c2-4af3-a8a3-fafd8352c62c")
 	)
 	(wire
 		(pts
@@ -21228,6 +21208,16 @@
 			(type default)
 		)
 		(uuid "bc432705-51e1-468f-8865-37cc4e99a164")
+	)
+	(wire
+		(pts
+			(xy 543.56 153.67) (xy 543.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb685d6-f777-442c-af61-8b56bc19faa4")
 	)
 	(wire
 		(pts
@@ -22128,6 +22118,16 @@
 			(type default)
 		)
 		(uuid "e87330c0-8029-4348-9bab-cb8219b0dc64")
+	)
+	(wire
+		(pts
+			(xy 543.56 157.48) (xy 543.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fe331e-68dd-465b-9106-9aba7aeffce8")
 	)
 	(wire
 		(pts
@@ -24273,7 +24273,7 @@
 	)
 	(global_label "PUMP_OUT"
 		(shape input)
-		(at 543.56 148.59 270)
+		(at 543.56 160.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24283,7 +24283,7 @@
 		)
 		(uuid "4a797022-709a-4169-8c03-fecf5a33da11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 543.56 161.4933 90)
+			(at 543.56 172.9233 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26539,22 +26539,22 @@
 	)
 	(global_label "RELAY_ROTARY_PUMP"
 		(shape bidirectional)
-		(at 571.5 68.58 90)
+		(at 580.39 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a513f33d-ae23-4b2e-a3c1-f2bb90bc61e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 571.5 44.5868 90)
+			(at 556.3968 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -35271,7 +35271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 796.29 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -35289,7 +35289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 797.5599 167.64 0)
 			(effects
 				(font
@@ -35298,7 +35298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 796.29 166.37 0)
 			(effects
 				(font
@@ -35325,7 +35325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 799.846 152.654 0)
 			(effects
 				(font
@@ -40417,7 +40417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 735.33 445.77 90)
 		(mirror x)
 		(unit 1)
@@ -40435,7 +40435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 736.5999 452.12 0)
 			(effects
 				(font
@@ -40444,7 +40444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 735.33 450.85 0)
 			(effects
 				(font
@@ -40471,7 +40471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 738.886 437.134 0)
 			(effects
 				(font
@@ -43572,7 +43572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 571.5 78.74 180)
+		(at 549.91 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43581,7 +43581,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d664b28-f660-4b6c-9957-637484619d59")
 		(property "Reference" "R54"
-			(at 566.42 78.74 90)
+			(at 549.91 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43589,7 +43589,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 568.96 78.74 90)
+			(at 549.91 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43597,7 +43597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 571.5 78.74 0)
+			(at 549.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43606,7 +43606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 571.5 78.74 0)
+			(at 549.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43615,7 +43615,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 571.5 78.74 0)
+			(at 549.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43624,7 +43624,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 571.5 78.74 0)
+			(at 549.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47581,7 +47581,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 781.05 533.4 90)
 		(mirror x)
 		(unit 2)
@@ -47599,7 +47599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 782.3199 539.75 0)
 			(effects
 				(font
@@ -47608,7 +47608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 781.05 538.48 0)
 			(effects
 				(font
@@ -47635,7 +47635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 784.098 522.224 0)
 			(effects
 				(font
@@ -51355,7 +51355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 577.85 72.39 270)
+		(at 543.56 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51364,23 +51364,25 @@
 		(fields_autoplaced yes)
 		(uuid "8c4801ac-da50-4ed7-8d9a-e35a15d8c4ba")
 		(property "Reference" "R42"
-			(at 577.85 67.31 90)
+			(at 546.1 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100R"
-			(at 577.85 69.85 90)
+			(at 546.1 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 577.85 72.39 0)
+			(at 543.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51389,7 +51391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 577.85 72.39 0)
+			(at 543.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51398,7 +51400,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 577.85 72.39 0)
+			(at 543.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51407,11 +51409,12 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 577.85 72.39 0)
+			(at 546.1 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -53333,7 +53336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 571.5 81.28 0)
+		(at 552.45 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53342,7 +53345,7 @@
 		(fields_autoplaced yes)
 		(uuid "98489a08-5c19-4428-96e3-9cdd6e0e8ad3")
 		(property "Reference" "#PWR0179"
-			(at 571.5 87.63 0)
+			(at 558.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53351,7 +53354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 571.5 85.09 90)
+			(at 556.26 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53360,7 +53363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 571.5 81.28 0)
+			(at 552.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53369,7 +53372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 571.5 81.28 0)
+			(at 552.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53378,7 +53381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 571.5 81.28 0)
+			(at 552.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53994,7 +53997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 673.1 133.35 0)
 		(mirror y)
 		(unit 2)
@@ -54012,7 +54015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 666.75 134.6199 0)
 			(effects
 				(font
@@ -54021,7 +54024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 668.02 133.35 0)
 			(effects
 				(font
@@ -54048,7 +54051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 684.276 136.398 0)
 			(effects
 				(font
@@ -54989,7 +54992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 759.46 471.17 0)
 		(mirror y)
 		(unit 2)
@@ -55007,7 +55010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 753.11 472.4399 0)
 			(effects
 				(font
@@ -55016,7 +55019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 754.38 471.17 0)
 			(effects
 				(font
@@ -55043,7 +55046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 770.636 474.218 0)
 			(effects
 				(font
@@ -55223,7 +55226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 702.31 119.38 270)
 		(mirror x)
 		(unit 1)
@@ -55241,7 +55244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 701.0401 113.03 0)
 			(effects
 				(font
@@ -55250,7 +55253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 702.31 114.3 0)
 			(effects
 				(font
@@ -55277,7 +55280,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 698.754 128.016 0)
 			(effects
 				(font
@@ -55380,7 +55383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 871.22 119.38 270)
 		(mirror x)
 		(unit 2)
@@ -55398,7 +55401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 869.9501 113.03 0)
 			(effects
 				(font
@@ -55407,7 +55410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 871.22 114.3 0)
 			(effects
 				(font
@@ -55434,7 +55437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 868.172 130.556 0)
 			(effects
 				(font
@@ -56076,7 +56079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 795.02 118.11 270)
 		(mirror x)
 		(unit 2)
@@ -56094,7 +56097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 793.7501 111.76 0)
 			(effects
 				(font
@@ -56103,7 +56106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 795.02 113.03 0)
 			(effects
 				(font
@@ -56130,7 +56133,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 791.972 129.286 0)
 			(effects
 				(font
@@ -59904,7 +59907,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 715.01 384.81 270)
 		(mirror x)
 		(unit 2)
@@ -59922,7 +59925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 713.7401 378.46 0)
 			(effects
 				(font
@@ -59931,7 +59934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 715.01 379.73 0)
 			(effects
 				(font
@@ -59958,7 +59961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 711.962 395.986 0)
 			(effects
 				(font
@@ -61620,7 +61623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 876.3 172.72 0)
 		(mirror x)
 		(unit 1)
@@ -61638,7 +61641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 882.65 171.4501 0)
 			(effects
 				(font
@@ -61647,7 +61650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 881.38 172.72 0)
 			(effects
 				(font
@@ -61674,7 +61677,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 867.664 169.164 0)
 			(effects
 				(font
@@ -61987,7 +61990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 575.31 140.97 0)
 		(mirror x)
 		(unit 2)
@@ -62005,7 +62008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 581.66 139.7001 0)
 			(effects
 				(font
@@ -62014,7 +62017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 580.39 140.97 0)
 			(effects
 				(font
@@ -62041,7 +62044,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 564.134 137.922 0)
 			(effects
 				(font
@@ -62948,7 +62951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 783.59 495.3 270)
 		(mirror x)
 		(unit 1)
@@ -62966,7 +62969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 782.3201 488.95 0)
 			(effects
 				(font
@@ -62975,7 +62978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 783.59 490.22 0)
 			(effects
 				(font
@@ -63002,7 +63005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 780.034 503.936 0)
 			(effects
 				(font
@@ -63181,7 +63184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 589.28 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -63199,7 +63202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 595.63 71.1201 0)
 			(effects
 				(font
@@ -63208,7 +63211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 594.36 72.39 0)
 			(effects
 				(font
@@ -63235,7 +63238,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 579.374 70.104 0)
 			(effects
 				(font
@@ -65761,7 +65764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 791.21 467.36 270)
 		(mirror x)
 		(unit 1)
@@ -65779,7 +65782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QS6K1FRATR"
+		(property "Value" "BSS138DW"
 			(at 789.9401 461.01 0)
 			(effects
 				(font
@@ -65788,7 +65791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 791.21 462.28 0)
 			(effects
 				(font
@@ -65815,7 +65818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3281905"
+		(property "LCSC" "C154900"
 			(at 787.654 475.996 0)
 			(effects
 				(font
