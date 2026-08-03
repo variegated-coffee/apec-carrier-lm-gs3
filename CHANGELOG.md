@@ -1,5 +1,14 @@
 # Changelog
 
+## EV2 to EV3
+
+* Added power rail indicator LEDs (D19-D23) with series resistors (R77-R81), one per rail: +24V, 12V_ISO, 12V_ACDC, USB_VBUS and 3V3
+* Named the AC/DC brick output net 12V_ACDC (previously unnamed), and assigned it the 12V-1A net class, same as 12V_ISO
+* Added isolation slots to the board outline
+  * A diagonal slot in the 24V section, next to J5 and Q11
+  * An L-shaped slot alongside the U10/U11 mechanical relays
+* Minor rerouting around the new LEDs, and of RP2350_SWCLK_POST_R
+
 ## EV1 to EV2
 
 * Corrected pins on mechanical relay FETs (gate and drain swapped)

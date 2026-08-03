@@ -16266,6 +16266,16 @@
 		)
 		(uuid "834075b8-bae3-41fe-ac51-566b57a2414a")
 	)
+	(text "PWM2B"
+		(exclude_from_sim no)
+		(at 108.966 21.082 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8543c166-4e92-4cdb-b970-750bc4404306")
+	)
 	(text "I2C0\nAddress 0x68"
 		(exclude_from_sim no)
 		(at 853.694 632.968 0)
@@ -16714,6 +16724,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67235ad6-bdca-4ab8-aaf8-191da09c4577")
+	)
+	(junction
+		(at 447.04 608.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a93cf1-6de9-47ba-b845-8b108dd1f122")
 	)
 	(junction
 		(at 361.95 154.94)
@@ -17445,6 +17461,16 @@
 	)
 	(wire
 		(pts
+			(xy 581.66 530.86) (xy 581.66 532.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06037715-b40b-4e01-bd16-74fa7113c4e8")
+	)
+	(wire
+		(pts
 			(xy 728.98 101.6) (xy 734.06 101.6)
 		)
 		(stroke
@@ -17762,6 +17788,16 @@
 			(type default)
 		)
 		(uuid "161bf4b6-c69b-4ce7-bf0f-2bbbd4fa494e")
+	)
+	(wire
+		(pts
+			(xy 563.88 520.7) (xy 563.88 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166074ca-0be8-4561-a0cb-ed44c7b75e8b")
 	)
 	(wire
 		(pts
@@ -18515,6 +18551,16 @@
 	)
 	(wire
 		(pts
+			(xy 815.34 411.48) (xy 843.28 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d85f7f7-ddec-49ae-bfa1-2d3dbba7d0c6")
+	)
+	(wire
+		(pts
 			(xy 323.85 384.81) (xy 323.85 388.62)
 		)
 		(stroke
@@ -18522,6 +18568,16 @@
 			(type default)
 		)
 		(uuid "3dc0ce1b-bea4-4b10-a483-da5f02a106fa")
+	)
+	(wire
+		(pts
+			(xy 600.71 530.86) (xy 600.71 532.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd4350b-f0ee-433a-9d6d-6de408792102")
 	)
 	(wire
 		(pts
@@ -18765,6 +18821,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 520.7) (xy 546.1 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b59c7c4-a390-4fc5-81c8-5951f86b15bd")
+	)
+	(wire
+		(pts
 			(xy 801.37 97.79) (xy 808.99 97.79)
 		)
 		(stroke
@@ -18982,16 +19048,6 @@
 			(type default)
 		)
 		(uuid "5500b46f-13aa-402b-a6ce-f1e5d8da217a")
-	)
-	(wire
-		(pts
-			(xy 815.34 411.48) (xy 843.28 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557304bc-3589-4faa-850f-165f6c92cb52")
 	)
 	(wire
 		(pts
@@ -19382,6 +19438,16 @@
 			(type default)
 		)
 		(uuid "68007d73-daef-4cbd-965f-f9166ff3436f")
+	)
+	(wire
+		(pts
+			(xy 447.04 608.33) (xy 450.85 608.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0a2424-cf82-4f17-afbb-8dcd0dceba8f")
 	)
 	(wire
 		(pts
@@ -20115,6 +20181,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 510.54) (xy 546.1 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ef6016-1908-4440-8176-c364fe44b093")
+	)
+	(wire
+		(pts
 			(xy 279.4 459.74) (xy 273.05 459.74)
 		)
 		(stroke
@@ -20225,6 +20301,16 @@
 	)
 	(wire
 		(pts
+			(xy 600.71 520.7) (xy 600.71 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89780f62-d49f-4e92-b778-fbcb6dd3c02a")
+	)
+	(wire
+		(pts
 			(xy 797.56 426.72) (xy 798.83 426.72)
 		)
 		(stroke
@@ -20312,6 +20398,16 @@
 			(type default)
 		)
 		(uuid "8ee3209e-ddf6-4b43-8e98-189d6d66518a")
+	)
+	(wire
+		(pts
+			(xy 527.05 530.86) (xy 527.05 532.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8dc3b5-b989-4cea-b7f8-c6d257692e0f")
 	)
 	(wire
 		(pts
@@ -20595,7 +20691,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 608.33) (xy 450.85 608.33)
+			(xy 444.5 608.33) (xy 447.04 608.33)
 		)
 		(stroke
 			(width 0)
@@ -21045,6 +21141,16 @@
 	)
 	(wire
 		(pts
+			(xy 581.66 520.7) (xy 581.66 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d94b7a-764a-4f03-a568-b75d025a8966")
+	)
+	(wire
+		(pts
 			(xy 876.3 341.63) (xy 882.65 341.63)
 		)
 		(stroke
@@ -21395,6 +21501,16 @@
 	)
 	(wire
 		(pts
+			(xy 563.88 530.86) (xy 563.88 532.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c588e936-c697-4c33-b8ed-bd95d531f673")
+	)
+	(wire
+		(pts
 			(xy 914.4 86.36) (xy 916.94 86.36)
 		)
 		(stroke
@@ -21452,6 +21568,16 @@
 			(type default)
 		)
 		(uuid "c765a87f-c411-4161-bf6e-c7b769a61965")
+	)
+	(wire
+		(pts
+			(xy 447.04 605.79) (xy 447.04 608.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b1f5e2-8abd-4057-9325-ebe18d578134")
 	)
 	(wire
 		(pts
@@ -21712,6 +21838,16 @@
 			(type default)
 		)
 		(uuid "d3697de9-7790-46c7-8475-a0af6c5b7a75")
+	)
+	(wire
+		(pts
+			(xy 546.1 530.86) (xy 546.1 532.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c9659-946a-4e69-9ff2-41edb15c933e")
 	)
 	(wire
 		(pts
@@ -22015,6 +22151,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 510.54) (xy 527.05 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28e5f87-23b5-442f-931e-ba12c4375a7d")
+	)
+	(wire
+		(pts
 			(xy 232.41 266.7) (xy 234.95 266.7)
 		)
 		(stroke
@@ -22265,6 +22411,16 @@
 	)
 	(wire
 		(pts
+			(xy 563.88 510.54) (xy 563.88 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece5fb35-94e1-495f-826a-82a5c7c0712d")
+	)
+	(wire
+		(pts
 			(xy 543.56 139.7) (xy 543.56 140.97)
 		)
 		(stroke
@@ -22362,6 +22518,26 @@
 			(type default)
 		)
 		(uuid "f0b1022c-4655-41ca-924c-5a24f9fe9f27")
+	)
+	(wire
+		(pts
+			(xy 600.71 510.54) (xy 600.71 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ee62cf-1376-4397-966a-875ed0ab8f34")
+	)
+	(wire
+		(pts
+			(xy 527.05 520.7) (xy 527.05 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f158911b-303f-4a62-b654-ff3767e3b96e")
 	)
 	(wire
 		(pts
@@ -22772,6 +22948,16 @@
 			(type default)
 		)
 		(uuid "fce9cae8-bc69-4e14-a069-deb48a048633")
+	)
+	(wire
+		(pts
+			(xy 581.66 510.54) (xy 581.66 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf1c49b-5874-45f0-baf3-5dc3bee73bbe")
 	)
 	(wire
 		(pts
@@ -24707,6 +24893,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_ISO"
+		(shape passive)
+		(at 546.1 510.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5616756b-b8a6-47e1-b02e-bc24d0eab1c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 546.1 501.0461 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -26955,6 +27163,28 @@
 			)
 		)
 	)
+	(global_label "12V_ACDC"
+		(shape passive)
+		(at 563.88 510.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2bc6b6e-989a-4c95-ad63-851da9e346f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 563.88 499.2923 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CS"
 		(shape bidirectional)
 		(at 490.22 64.77 180)
@@ -27320,6 +27550,28 @@
 		(uuid "bde74e52-bbf2-41bc-9da8-04169a63c994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 1065.7561 717.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_ACDC"
+		(shape passive)
+		(at 447.04 605.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beace5b7-169c-4155-9a47-11b0b26b58a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 447.04 594.5423 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28882,6 +29134,28 @@
 		(uuid "fd8deae2-1e33-405e-8f5e-cf5f2f331cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 450.509 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_VBUS"
+		(shape passive)
+		(at 581.66 510.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdf89774-f7ef-44e1-8588-3f5ee45782d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 581.66 498.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36777,6 +37051,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GNDPWR_1")
+		(lib_id "power:GNDPWR")
+		(at 546.1 532.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fa4cdcd-a728-4a7c-bb87-9dfdc55eca67")
+		(property "Reference" "#PWR0228"
+			(at 546.1 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 545.338 536.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 546.1 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5809ec27-69d0-4246-9fba-e7e1dbdc6eb3")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 245.11 251.46 90)
 		(unit 1)
@@ -36939,6 +37279,71 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 581.66 532.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30939bdc-9017-4067-9d84-35f07ae720ac")
+		(property "Reference" "#PWR0229"
+			(at 581.66 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 581.66 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 581.66 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 581.66 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 581.66 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe7c50ad-ebef-418d-b124-ac6492e9eebf")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -37800,6 +38205,71 @@
 			(project ""
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 600.71 532.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2de11a-43dc-48c6-9e68-a2431194d3bb")
+		(property "Reference" "#PWR0230"
+			(at 600.71 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 600.71 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 600.71 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 600.71 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "637ceac5-cb79-4190-8c69-03a7693f8d9f")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -38878,6 +39348,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 581.66 527.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4093bb19-91f4-4241-a325-7b65dd75ab8c")
+		(property "Reference" "D22"
+			(at 585.47 526.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 585.47 528.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 581.66 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 581.66 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 581.66 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 581.66 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130724"
+			(at 585.47 531.1774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "1ef0e25d-ce4e-4dc6-b412-1821d45e931b")
+		)
+		(pin "2"
+			(uuid "2da9434a-c30e-43c1-b334-88a6cf630cc9")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 836.93 427.99 0)
 		(unit 1)
@@ -39404,6 +39962,73 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+24V_2")
+		(lib_id "power:+24V")
+		(at 527.05 510.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455ab469-a6cb-4ce4-a5fb-bda60a87cea8")
+		(property "Reference" "#PWR0226"
+			(at 527.05 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 527.05 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 527.05 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 527.05 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 527.05 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5565c31-1f02-4a55-b4d0-74a87133ade0")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -41558,6 +42183,94 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 563.88 527.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f8f6de-b314-4e36-8fde-31232ca117f9")
+		(property "Reference" "D21"
+			(at 567.69 526.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 567.69 528.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 563.88 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 563.88 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 563.88 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 563.88 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130724"
+			(at 567.69 531.1774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "8c599f13-97ba-4bf4-b3e2-bf2caeae9662")
+		)
+		(pin "2"
+			(uuid "98c1a02b-6f78-4907-89d6-3af737034999")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -45696,6 +46409,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 563.88 532.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684eda79-9894-4d02-8b52-6f92cf09742a")
+		(property "Reference" "#PWR0227"
+			(at 563.88 538.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 563.88 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b66610db-9acf-4239-af9f-72adb59173f6")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 1108.71 586.74 90)
@@ -46410,6 +47188,84 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 581.66 518.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c164bd9-d436-40f7-bd8a-86374dcfd8d3")
+		(property "Reference" "R80"
+			(at 584.2 516.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 584.2 519.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 581.66 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 581.66 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 581.66 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 581.66 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29f06f17-abb6-4052-8c06-6992b55c0c01")
+		)
+		(pin "1"
+			(uuid "c487ed74-0704-4ded-bdce-e7372603e671")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -49434,6 +50290,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 600.71 518.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e5614a6-83c6-4c55-a16e-5bebabcb4326")
+		(property "Reference" "R81"
+			(at 603.25 516.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 603.25 519.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 600.71 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 600.71 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 600.71 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e76ba173-a31f-44cc-9b8e-131071047d90")
+		)
+		(pin "1"
+			(uuid "c940a954-6d21-4227-b3b4-651547184cdc")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 345.44 416.56 0)
 		(unit 1)
@@ -50699,7 +51633,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893ced")
+			(uuid "308693c2-7406-4005-97f6-996582893cee")
 		)
 		(pin "5"
 			(uuid "e31312a7-e6e6-49c9-b1e8-85367fadd1e3")
@@ -50708,13 +51642,13 @@
 			(uuid "b8538023-2a0b-4953-8e11-59cb08abc70f")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a0466")
+			(uuid "288aa569-a657-4dbe-9259-be07972a0468")
 		)
 		(pin "4"
 			(uuid "94bb3c59-db19-451e-962b-ccfe764f1dac")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a98")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a99")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
@@ -51374,6 +52308,84 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 563.88 518.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "886d88d4-ebc1-4e0f-8c52-878bd4e6d35d")
+		(property "Reference" "R79"
+			(at 566.42 516.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 566.42 519.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 563.88 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 563.88 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 563.88 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 563.88 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b734f445-1b15-4c7e-bb18-026200298583")
+		)
+		(pin "1"
+			(uuid "c50c667a-390c-4c5d-b0ce-4bbc3ce6af07")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -52688,7 +53700,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "903f600d-3f8a-4ba2-902d-66c2641faa5a")
 		(property "Reference" "#PWR0216"
 			(at 836.93 435.61 0)
@@ -52700,7 +53711,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 836.803 434.34 0)
+			(at 836.168 435.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53484,6 +54495,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 527.05 527.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9567b628-a130-40b7-8ca5-f2802cfa066b")
+		(property "Reference" "D19"
+			(at 530.86 526.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 530.86 528.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 527.05 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 527.05 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 527.05 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130724"
+			(at 530.86 531.1774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d85b121a-617c-4332-b90f-134dd06ab3a8")
+		)
+		(pin "2"
+			(uuid "39d36a26-d92c-41b9-b8a8-05b12c5afff3")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 426.72 412.75 90)
 		(unit 1)
@@ -53787,6 +54886,84 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 546.1 518.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98604c06-d80c-4f63-ae42-8283fbeeb560")
+		(property "Reference" "R78"
+			(at 548.64 516.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 548.64 519.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 546.1 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 546.1 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 546.1 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bad5c0b2-f47f-46b7-bc3c-a0b02a4278e3")
+		)
+		(pin "1"
+			(uuid "7fcc9ffa-f62a-4e99-afdb-358f6531574c")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -54373,7 +55550,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893ced")
+			(uuid "308693c2-7406-4005-97f6-996582893cef")
 		)
 		(pin "5"
 			(uuid "0a38919f-358a-484e-bdda-f10531b98cda")
@@ -54382,13 +55559,13 @@
 			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a10f")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a0466")
+			(uuid "288aa569-a657-4dbe-9259-be07972a0469")
 		)
 		(pin "4"
 			(uuid "8677a06c-1d14-4543-a7c5-2731f4783592")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a98")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9a")
 		)
 		(instances
 			(project ""
@@ -55179,6 +56356,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 546.1 527.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3745a76-9e1e-46ec-9816-d410d9ac23b2")
+		(property "Reference" "D20"
+			(at 549.91 526.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 549.91 528.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 546.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 546.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 546.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130724"
+			(at 549.91 531.1774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "bd912d24-7a14-4695-ac78-1c9fa9010a20")
+		)
+		(pin "2"
+			(uuid "bc8a8a13-9dbd-4f30-a99d-d213262128a7")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 789.94 480.06 0)
 		(unit 1)
@@ -55435,7 +56700,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cee")
+			(uuid "308693c2-7406-4005-97f6-996582893cf0")
 		)
 		(pin "5"
 			(uuid "0a38919f-358a-484e-bdda-f10531b98cdb")
@@ -55450,13 +56715,78 @@
 			(uuid "e137ef2f-087e-4287-9b80-949fb3916a49")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a99")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9b")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "Q27")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 600.71 510.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6cd769b-a1df-4bb6-b1ce-fb6cb6083c30")
+		(property "Reference" "#PWR0231"
+			(at 600.71 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 600.71 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 600.71 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 600.71 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac064733-5c16-456d-9a96-803b8262c3e4")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0231")
+					(unit 1)
 				)
 			)
 		)
@@ -55669,22 +56999,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cef")
+			(uuid "308693c2-7406-4005-97f6-996582893cf1")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98cdc")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98cdd")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a111")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a112")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a0468")
+			(uuid "288aa569-a657-4dbe-9259-be07972a046a")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783594")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f4783595")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a9a")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9c")
 		)
 		(instances
 			(project ""
@@ -55826,10 +57156,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cf0")
+			(uuid "308693c2-7406-4005-97f6-996582893cf2")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98cdd")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98cde")
 		)
 		(pin "3"
 			(uuid "1c86c201-c397-4510-9ce4-d7ac48368e17")
@@ -55841,7 +57171,7 @@
 			(uuid "25a45bdb-e5dc-4383-a051-8d723bd3e64b")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a9b")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9d")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
@@ -56522,10 +57852,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cf1")
+			(uuid "308693c2-7406-4005-97f6-996582893cf3")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98cde")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98cdf")
 		)
 		(pin "3"
 			(uuid "d0cfdcfb-3367-4b40-a34a-b3d99222ae7e")
@@ -56537,7 +57867,7 @@
 			(uuid "ce2c6d43-a74a-4d60-87cf-7ef502019019")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a9c")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9e")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
@@ -56739,6 +58069,94 @@
 			(project "apec-carrier-silvia-1593w"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 600.71 527.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03f4d40-25f8-48b5-a907-d6e7d6da156c")
+		(property "Reference" "D23"
+			(at 604.52 526.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 604.52 528.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 600.71 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 600.71 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 600.71 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130724"
+			(at 604.52 531.1774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "06ed24a5-458d-4829-9f00-a1f384c5810a")
+		)
+		(pin "2"
+			(uuid "b86a9936-e68c-4610-81a6-5d56ad4924ab")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -57753,6 +59171,72 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDPWR_1")
+		(lib_id "power:GNDPWR")
+		(at 527.05 532.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8794585-bf0b-4e99-8aa3-7e443f1164ca")
+		(property "Reference" "#PWR0225"
+			(at 527.05 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 526.288 536.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 527.05 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 527.05 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 527.05 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d05d97c-ea0e-405c-9a8a-8178a13be2f3")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -60115,6 +61599,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 527.05 518.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce1a9a31-7f70-4ad0-816a-d2a3963bf9cd")
+		(property "Reference" "R77"
+			(at 529.59 516.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 529.59 519.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 527.05 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 527.05 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 527.05 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "490b6f69-638e-49aa-aa27-9851322959dc")
+		)
+		(pin "1"
+			(uuid "c791cb8b-7bb9-43d4-b5c8-2b51b7c9004b")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 490.22 74.93 270)
@@ -60323,10 +61885,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cf2")
+			(uuid "308693c2-7406-4005-97f6-996582893cf4")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98cdf")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98ce0")
 		)
 		(pin "3"
 			(uuid "94b84954-0a1b-48ae-8357-e87659a361df")
@@ -60338,7 +61900,7 @@
 			(uuid "8e15c506-0c87-4f1d-a2b2-17dbe310d581")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a9d")
+			(uuid "77a181a9-5134-4551-990e-fb6694052a9f")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
@@ -62045,13 +63607,13 @@
 			(uuid "e82ed221-e8ed-4dc4-8f70-9c88b9fc3014")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a112")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a113")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a0469")
+			(uuid "288aa569-a657-4dbe-9259-be07972a046b")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783595")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f4783596")
 		)
 		(pin "6"
 			(uuid "6ceae442-3225-4669-9cca-8a4e4b719b4d")
@@ -62482,10 +64044,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "308693c2-7406-4005-97f6-996582893cf3")
+			(uuid "308693c2-7406-4005-97f6-996582893cf5")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98ce0")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98ce1")
 		)
 		(pin "3"
 			(uuid "5ed74ddb-dea3-452f-a61f-fa60ea4aa64f")
@@ -62497,7 +64059,7 @@
 			(uuid "3659cfef-058a-4220-9df9-fd43182c296f")
 		)
 		(pin "6"
-			(uuid "77a181a9-5134-4551-990e-fb6694052a9e")
+			(uuid "77a181a9-5134-4551-990e-fb6694052aa0")
 		)
 		(instances
 			(project "apec-carrier-lm-gs3"
@@ -63615,13 +65177,13 @@
 			(uuid "920d8af9-36c1-4a19-be37-19128456d278")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a113")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a114")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a046a")
+			(uuid "288aa569-a657-4dbe-9259-be07972a046d")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783596")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f4783597")
 		)
 		(pin "6"
 			(uuid "d72395a7-b0a1-439f-b195-38d9f52b80fa")
@@ -63848,13 +65410,13 @@
 			(uuid "d56b2823-7f60-4d8f-bdd1-0b8f61d0d30c")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a114")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a116")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a046b")
+			(uuid "288aa569-a657-4dbe-9259-be07972a046e")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783597")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f4783599")
 		)
 		(pin "6"
 			(uuid "210cb368-ba51-4b06-8f4a-ab30d2c6d9ff")
@@ -66567,16 +68129,16 @@
 			(uuid "0f5f1973-c48f-416e-beee-3a236032e62f")
 		)
 		(pin "5"
-			(uuid "0a38919f-358a-484e-bdda-f10531b98cdc")
+			(uuid "0a38919f-358a-484e-bdda-f10531b98ce2")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a111")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a117")
 		)
 		(pin "2"
 			(uuid "7469db91-581a-4351-a6a6-945b096dd7e5")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783594")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f478359a")
 		)
 		(pin "6"
 			(uuid "63c4af04-9274-4cd0-bc30-950321f72a8c")
@@ -66660,13 +68222,13 @@
 			(uuid "ee9324ca-624d-4253-97d8-735470bf102a")
 		)
 		(pin "3"
-			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a116")
+			(uuid "ccaf0f6b-32cc-4c2f-a0a9-3da27553a118")
 		)
 		(pin "2"
-			(uuid "288aa569-a657-4dbe-9259-be07972a046d")
+			(uuid "288aa569-a657-4dbe-9259-be07972a046f")
 		)
 		(pin "4"
-			(uuid "8677a06c-1d14-4543-a7c5-2731f4783599")
+			(uuid "8677a06c-1d14-4543-a7c5-2731f478359b")
 		)
 		(pin "6"
 			(uuid "dce2f746-8dd0-4261-8295-d665ca4350fb")
