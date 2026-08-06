@@ -501,7 +501,7 @@
         "clearance": 0.4,
         "name": "12V-1A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.4
       },
@@ -509,7 +509,7 @@
         "clearance": 2.4,
         "name": "230VAC-16A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 2.5
       },
@@ -517,7 +517,7 @@
         "clearance": 2.4,
         "name": "230VAC-5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 2.5
       },
@@ -525,15 +525,25 @@
         "clearance": 0.4,
         "name": "24V-2A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.8
       },
       {
         "clearance": 0.2,
-        "name": "PWR_DIST",
+        "name": "GND1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR_DIST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.3,
         "via_diameter": 0.8,
@@ -572,8 +582,17 @@
       "GROUP_SOLENOID": [
         "230VAC-5A"
       ],
+      "LOAD_CELL_ADC1_1_N": [
+        "SIGA"
+      ],
+      "LOAD_CELL_ADC1_1_P": [
+        "SIGA"
+      ],
       "N": [
         "230VAC-16A"
+      ],
+      "NAU7802_1_AVDD": [
+        "PWR_DIST"
       ],
       "Net-(C16-Pad1)": [
         "12V-1A"
@@ -613,6 +632,12 @@
       ],
       "Net-(FB1-Pad1)": [
         "PWR_DIST"
+      ],
+      "Net-(J12-Pin_3)": [
+        "SIGA"
+      ],
+      "Net-(J12-Pin_4)": [
+        "SIGA"
       ],
       "Net-(J20-Pin_13)": [
         "PWR_DIST"
@@ -686,6 +711,10 @@
       {
         "netclass": "12V-1A",
         "pattern": "+12V"
+      },
+      {
+        "netclass": "GND1",
+        "pattern": "GND1"
       }
     ]
   },
