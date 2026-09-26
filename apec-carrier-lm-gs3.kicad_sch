@@ -14588,6 +14588,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SolderJumper_2_Bridged_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -17833,6 +18022,12 @@
 		(uuid "af3616fc-0951-4642-a6a9-90e9d4f3af46")
 	)
 	(junction
+		(at 179.07 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af45aecb-a4f8-4f29-92f0-25328e507599")
+	)
+	(junction
 		(at 275.59 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17873,6 +18068,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc79411-8ce1-4ddd-a9e9-b31290fedd73")
+	)
+	(junction
+		(at 179.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0bb9bac-0d23-462e-966d-271371b6ca19")
 	)
 	(junction
 		(at 607.06 82.55)
@@ -19550,7 +19751,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 92.71) (xy 184.15 92.71)
+			(xy 187.96 92.71) (xy 186.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -21600,6 +21801,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6e0fee-a23c-4ee4-b00b-145e70c8f5bd")
+	)
+	(wire
+		(pts
 			(xy 311.15 34.29) (xy 328.93 34.29)
 		)
 		(stroke
@@ -21700,7 +21911,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 97.79) (xy 176.53 97.79)
+			(xy 187.96 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -22167,6 +22378,16 @@
 			(type default)
 		)
 		(uuid "acf2d995-0943-4c5c-835a-f1be35fba5ca")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adafcf2f-83ee-4672-8d47-0a0e3783813c")
 	)
 	(wire
 		(pts
@@ -25892,6 +26113,30 @@
 			)
 		)
 	)
+	(global_label "C_SHIELD_2"
+		(shape bidirectional)
+		(at 182.88 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "451bfadb-4372-4248-859b-e5c1862cedf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 53.2031 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "INT_SDA"
 		(shape bidirectional)
 		(at 562.61 381 180)
@@ -28761,6 +29006,30 @@
 		(uuid "b381d096-d8ba-4f3b-9129-65f67ac557db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 480.1969 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C_SHIELD"
+		(shape bidirectional)
+		(at 172.72 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3dd78c3-6878-426e-b462-e04125ec44e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 51.026 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33658,6 +33927,97 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d6ab303-6a7a-42f4-8007-9f22ce8a19e0")
+		(property "Reference" "C51"
+			(at 180.34 99.695 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, >10V, X6S"
+			(at 180.34 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e65e3001-0eb7-4d56-9088-e4430b357d2b")
+		)
+		(pin "2"
+			(uuid "c6e7f5a0-06e8-49fa-9441-0d5867ef1f36")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -40359,7 +40719,7 @@
 				)
 			)
 		)
-		(property "Value" "4K99 0.1%"
+		(property "Value" "9K53 0.1%"
 			(at 227.33 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40422,7 +40782,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C864414"
+		(property "LCSC" ""
 			(at 227.33 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46782,7 +47142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 181.61 92.71 90)
+		(at 184.15 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46792,7 +47152,7 @@
 		(dnp no)
 		(uuid "5637b98a-67bc-403a-8e94-57242d537d59")
 		(property "Reference" "R8"
-			(at 181.61 87.63 90)
+			(at 184.15 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46801,8 +47161,8 @@
 				)
 			)
 		)
-		(property "Value" "33K, 0.1%, 10 ppm"
-			(at 181.61 90.17 90)
+		(property "Value" "0R"
+			(at 184.15 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46812,7 +47172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 181.61 92.71 0)
+			(at 184.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46823,7 +47183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 92.71 0)
+			(at 184.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46834,7 +47194,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 181.61 92.71 0)
+			(at 184.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46845,7 +47205,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 181.61 92.71 0)
+			(at 184.15 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46855,7 +47215,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 181.61 92.71 0)
+			(at 184.15 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46864,7 +47224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C351577"
+		(property "LCSC" "C17477"
 			(at 196.596 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56634,6 +56994,87 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Bridged_1")
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 177.8 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87cee773-b4fa-47b5-ac18-93c2e129f023")
+		(property "Reference" "JP12"
+			(at 177.8 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 177.8 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 177.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 177.8 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0db4433c-7a86-4cd2-b264-dda58388a207")
+		)
+		(pin "1"
+			(uuid "3910bceb-d31a-4437-aa34-8a576f719179")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -73214,7 +73655,7 @@
 				)
 			)
 		)
-		(property "Value" "4K99 0.1%"
+		(property "Value" "0R"
 			(at 227.33 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73277,7 +73718,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C864414"
+		(property "LCSC" "C17477"
 			(at 227.33 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)

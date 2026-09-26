@@ -1055,7 +1055,7 @@
         "uuid": "d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
       }
     ],
-    "used_designators": "R87-88,C64-66,J17-18,#PWR124-128",
+    "used_designators": "JP12,R87-88,C64-66,J17-18,#PWR124-128",
     "variants": []
   },
   "sheets": [

@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 0.5099999904632568,
-      "zones": 0.4300000071525574
+      "zones": 0.14000000059604645
     },
     "prototype_zone_fills": false,
     "selection_filter": {
