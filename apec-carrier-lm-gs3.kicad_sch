@@ -17076,7 +17076,7 @@
 		)
 		(uuid "0250f32a-94e8-478d-a469-c8ba3295ed0d")
 	)
-	(text "An RC filter helps reduce high frequecy noise\nwhich may couple into the traces. 47 ohm/4.7 µF\nwas selected due to it being common components\nand give a reasonable cut-off frequency."
+	(text "R8 = 0R, C51 = 100 nF at the REFP1/REFN1 pins.\nREFP1 sits at AVDD, so its buffer must be off;\nthe unbuffered input draws ~4 uA/V, so any series\nresistance here makes the reference read low."
 		(exclude_from_sim no)
 		(at 208.28 84.582 0)
 		(effects
@@ -17157,7 +17157,7 @@
 		)
 		(uuid "4703763c-ab66-425c-bf24-32cf94ef53af")
 	)
-	(text "An RC filter helps reduce high frequecy noise\nwhich may couple into the cables. 47 ohm/4.7 µF\nwas selected due to it being common components\nand give a reasonable cut-off frequency."
+	(text "RC filter at the ADC pin: 33K / 47 nF, ~100 Hz.\nCap on the ADC side: the sensor never sees it.\nThe 33K also limits fault current into the ADC\nif the signal wire is shorted."
 		(exclude_from_sim no)
 		(at 355.854 57.404 0)
 		(effects
@@ -17288,9 +17288,9 @@
 		)
 		(uuid "859c532f-6d84-4714-b65b-b1683242895c")
 	)
-	(text "An RC filter helps reduce high frequecy noise\nwhich may couple into the cables. 47 ohm/4.7 µF\nwas selected due to it being common components\nand give a reasonable cut-off frequency."
+	(text "RC filter at the ADC pin: 33K / 47 nF, ~100 Hz.\nCap on the ADC side: the sensor never sees it.\nThe 33K also limits fault current into the ADC\nif the signal wire is shorted."
 		(exclude_from_sim no)
-		(at 314.706 21.082 0)
+		(at 300.228 21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17716,12 +17716,6 @@
 		(uuid "63f84063-bacb-4aa6-bced-5b281964cd43")
 	)
 	(junction
-		(at 311.15 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661ac893-4549-4634-8058-05b54ff4c256")
-	)
-	(junction
 		(at 447.04 608.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18116,12 +18110,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4efcc88-a191-4775-8dd3-072981387725")
-	)
-	(junction
-		(at 311.15 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6c82e77-73c9-4e37-8e90-e9c55b6e55fd")
 	)
 	(junction
 		(at 702.31 133.35)
@@ -19251,7 +19239,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 73.66) (xy 328.93 73.66)
+			(xy 307.34 73.66) (xy 328.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -21791,7 +21779,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 34.29) (xy 302.26 34.29)
+			(xy 293.37 34.29) (xy 297.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -21811,7 +21799,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 34.29) (xy 328.93 34.29)
+			(xy 307.34 34.29) (xy 328.93 34.29)
 		)
 		(stroke
 			(width 0)
@@ -22138,16 +22126,6 @@
 			(type default)
 		)
 		(uuid "a16c4df2-6a33-4815-970d-1216cc65cc3e")
-	)
-	(wire
-		(pts
-			(xy 311.15 34.29) (xy 307.34 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2295f61-42a9-4d5b-a44a-4a817cd9c6c1")
 	)
 	(wire
 		(pts
@@ -22531,7 +22509,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 73.66) (xy 302.26 73.66)
+			(xy 293.37 73.66) (xy 297.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -24398,16 +24376,6 @@
 			(type default)
 		)
 		(uuid "f90c4401-3d15-4eb6-8c9a-1343e9a9d71d")
-	)
-	(wire
-		(pts
-			(xy 311.15 73.66) (xy 307.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93e133e-3b39-46cf-9989-14645bb4fe4e")
 	)
 	(wire
 		(pts
@@ -32729,7 +32697,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 311.15 39.37 0)
+		(at 297.18 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32739,7 +32707,7 @@
 		(dnp no)
 		(uuid "0282c8ab-b599-47b3-b9be-ebf374c30611")
 		(property "Reference" "#PWR046"
-			(at 311.15 45.72 0)
+			(at 297.18 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32750,7 +32718,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 311.15 43.18 90)
+			(at 297.18 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32761,7 +32729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 39.37 0)
+			(at 297.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32772,7 +32740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 39.37 0)
+			(at 297.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32783,7 +32751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 311.15 39.37 0)
+			(at 297.18 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35125,7 +35093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 311.15 76.2 0)
+		(at 297.18 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35135,7 +35103,7 @@
 		(dnp no)
 		(uuid "1347373d-6907-450d-b7f5-9a87800e9664")
 		(property "Reference" "C12"
-			(at 313.69 74.9362 0)
+			(at 299.72 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35146,7 +35114,7 @@
 			)
 		)
 		(property "Value" "47nF, C0G"
-			(at 313.69 77.4762 0)
+			(at 299.72 77.4762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35157,7 +35125,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 311.15 76.2 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35168,7 +35136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 76.2 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35179,7 +35147,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 311.15 76.2 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35190,7 +35158,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 311.15 76.2 0)
+			(at 297.18 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35200,7 +35168,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 311.15 76.2 0)
+			(at 297.18 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35210,7 +35178,7 @@
 			)
 		)
 		(property "LCSC" "C2182212"
-			(at 306.07 82.042 0)
+			(at 292.1 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37163,6 +37131,7 @@
 		)
 		(property "LCSC" "C351577"
 			(at 297.942 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58129,7 +58098,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 311.15 36.83 0)
+		(at 297.18 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58140,7 +58109,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d88dc9c-b99a-4253-a17e-4011bf73df25")
 		(property "Reference" "C9"
-			(at 313.69 35.5662 0)
+			(at 299.72 35.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58151,7 +58120,7 @@
 			)
 		)
 		(property "Value" "47nF, C0G"
-			(at 313.69 38.1062 0)
+			(at 299.72 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58162,7 +58131,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58173,7 +58142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58184,7 +58153,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58195,7 +58164,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58205,7 +58174,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58215,7 +58184,7 @@
 			)
 		)
 		(property "LCSC" "C2182212"
-			(at 311.15 36.83 0)
+			(at 297.18 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69553,7 +69522,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 311.15 78.74 0)
+		(at 297.18 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -69563,7 +69532,7 @@
 		(dnp no)
 		(uuid "d6e94f68-688b-42c8-bb1e-5a6553a8c4ee")
 		(property "Reference" "#PWR050"
-			(at 311.15 85.09 0)
+			(at 297.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69574,7 +69543,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 311.15 82.55 90)
+			(at 297.18 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69585,7 +69554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 78.74 0)
+			(at 297.18 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69596,7 +69565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 78.74 0)
+			(at 297.18 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69607,7 +69576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 311.15 78.74 0)
+			(at 297.18 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74625,6 +74594,7 @@
 		)
 		(property "LCSC" "C351577"
 			(at 297.688 44.196 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77159,6 +77129,38 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 297.18 34.29) (xy 302.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b068ed12-b593-458f-9b8c-68f91bcb08c2")
+	)
+	(wire
+		(pts
+			(xy 297.18 73.66) (xy 302.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4ecf68-4fbe-43b9-bad9-dd4d87c21547")
+	)
+	(junction
+		(at 297.18 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb9ac626-8a3c-48ff-9876-f76eeb939201")
+	)
+	(junction
+		(at 297.18 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f03e70a-6d9a-4168-a989-3f0400174094")
 	)
 	(sheet_instances
 		(path "/"
