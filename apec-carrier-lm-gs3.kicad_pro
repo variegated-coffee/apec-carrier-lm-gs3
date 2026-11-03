@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -1055,7 +1055,7 @@
         "uuid": "d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
       }
     ],
-    "used_designators": "JP12,R87-88,C64-66,J17-18,#PWR124-128",
+    "used_designators": "RV2-5,JP12,R87-88,C64-68,#PWR124-130,#PWR232-233,J17-18",
     "variants": []
   },
   "sheets": [

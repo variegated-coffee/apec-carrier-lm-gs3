@@ -8,6 +8,23 @@
   * A diagonal slot in the 24V section, next to J5 and Q11
   * An L-shaped slot alongside the U10/U11 mechanical relays
 * Minor rerouting around the new LEDs, and of RP2350_SWCLK_POST_R
+* Added an EyeDC-SPI connector
+* Removed character display and buttons connectors (unnecessary with the Unimodule display module)
+* Changed to a right-angle USB-C connector
+* Reworked the ADS124S08 reference inputs, which were loaded by series resistance on unbuffered reference inputs (~4 % gain error on the RTDs, previously compensated in firmware)
+  * R34 (REFN0) changed from 4K99 to 0R
+  * R9 (REFP0) changed from 4K99 0.1% to 10K 1%, the same part as R19/R28/R57, keeping the reference filter close to the RTD input filters (~308 Hz vs ~323 Hz). Requires the REFP0 buffer to be enabled in firmware, which also makes R9's tolerance and tempco irrelevant
+  * R8 (REFP1) changed from 33K to 0R
+  * Added C51, 100 nF across REFP1/REFN1 at the SoM pins
+* Moved the pressure input filter caps C9/C12 to the ADC side of R10/R17, forming a ~100 Hz RC filter at the ADC pins, and keeping the capacitance off the transducer outputs
+* Updated the APEC_SoM_SMD footprint with keepouts under the SoM's exposed thermal vias, bottom-side test pads, and bottom-side USB and flash traces
+* Schematic naming and documentation cleanup
+  * Renamed the FDC1004 shield nets to FDC_SHLD1/FDC_SHLD2 (previously C_SHIELD_2/C_SHIELD, with the numbering swapped relative to the SoM)
+  * Relabelled the +12V power symbols as VIN, the name the net already had
+  * Removed a dangling wire stub on J13 pin 7
+  * Updated the I2C address summary, SD card note, and RTD reference filter note, and added notes for JP12, the SD card SPI bus selection resistors, and the FG304 ground separation
+* Added FW_NEXT.md, listing the firmware changes the EV3 hardware needs
+* Caps near USB D+- vias to/from In3 and correct impedance matching
 
 ## EV1 to EV2
 
