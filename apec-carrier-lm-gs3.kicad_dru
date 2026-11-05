@@ -101,6 +101,35 @@
 	(constraint clearance (min 0.2mm))
 	(condition "A.isPlated() && B.Type == 'track' && A.Layer == B.Layer"))
 
+# J14 (USB-C): the pad to NPTH peg hole gap comes from the connector's footprint.
+# Actual gaps are 0.175 mm and 0.210 mm, against the 0.25 mm board minimum.
+(rule "J14 pad to NPTH hole clearance waiver"
+	(constraint hole_clearance (min 0.17mm))
+	(condition "A.memberOfFootprint('J14') && B.memberOfFootprint('J14')"))
+
+# Net class spacing. These must stay after the fab minimums above, because later rules
+# take precedence and the fab minimums would otherwise replace the net class clearance.
+# Order them by increasing clearance, so that the larger value wins between two classes.
+(rule "Default clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.hasNetclass('Default')"))
+
+(rule "GND1 clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.hasNetclass('GND1')"))
+
+(rule "PWR_DIST clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.hasNetclass('PWR_DIST')"))
+
+(rule "12V-1A clearance"
+	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('12V-1A')"))
+
+(rule "24V-2A clearance"
+	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('24V-2A')"))
+
 # Mains spacing. These must stay last: later rules take precedence, so otherwise the
 # fab minimums above would replace the net class clearance.
 (rule "230VAC-16A clearance"

@@ -1055,13 +1055,81 @@
         "uuid": "d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
       }
     ],
-    "used_designators": "RV2-5,JP12,R87-88,C64-68,#PWR124-130,#PWR232-233,J17-18",
+    "used_designators": "CN9-14,NT1,FL1,L1,F2-3,K1,SW3-6,C1-68,FB1,U1-7,U9-11,U13,U15-16,J2-19,J21,J25,D2,D4-23,#PWR1-130,#PWR136-146,#PWR148-156,#PWR159-168,#PWR170,#PWR174-209,#PWR213-233,R2,R4-82,R87-88,JP1-12,Q11-12,Q22-31,RV1-5",
     "variants": []
   },
   "sheets": [
     [
       "d56c44cf-3aeb-4510-a1c1-e4740ce481bf",
       "apec-carrier-lm-gs3"
+    ],
+    [
+      "d51110aa-0c96-4fb9-814b-73393a19f2e4",
+      "SoM"
+    ],
+    [
+      "11007aad-1d5c-400e-8b26-b91030e674b0",
+      "Power"
+    ],
+    [
+      "efad2490-8abb-4944-bb83-d0f837279913",
+      "USB"
+    ],
+    [
+      "ba55c72b-22a5-49de-aeae-af246925867f",
+      "RTD"
+    ],
+    [
+      "407607d7-3cd9-44c7-b106-c34e89983324",
+      "SD Card"
+    ],
+    [
+      "26c61a4c-eca6-4bb2-a225-1cbf025d0b5e",
+      "Load cells"
+    ],
+    [
+      "e4020605-667f-427a-8ff9-75a59622b0b1",
+      "Relays and mains connectors"
+    ],
+    [
+      "afe491d4-c3e9-41c8-9960-1658b5d475d7",
+      "24V Outputs"
+    ],
+    [
+      "6ab5bc97-f59d-475b-aca8-a1c61529f606",
+      "Gear Pump"
+    ],
+    [
+      "1b7cdd9d-e853-433e-92da-216758fb938f",
+      "Status LEDs"
+    ],
+    [
+      "a58ce696-4c1f-448f-99bf-cd040378fb31",
+      "EyeSPI"
+    ],
+    [
+      "19fab626-ff3e-40ac-b896-da20cc4b8669",
+      "RTC and QWIIC"
+    ],
+    [
+      "23c84bf6-b15a-45b7-b5aa-adeb8d3cf1dd",
+      "Aux Connectors"
+    ],
+    [
+      "31f8a69b-8b79-498b-8552-052912b97904",
+      "Pressure Transducers"
+    ],
+    [
+      "f1b87e84-c51f-45e4-8adf-9ec75a40e7e5",
+      "Capacitive"
+    ],
+    [
+      "428e9281-271e-4b59-8c6e-8f875422d61f",
+      "Boiler Outputs"
+    ],
+    [
+      "94e35a57-af8f-4fc1-b6f0-f39ff3806218",
+      "LV Connector"
     ]
   ],
   "text_variables": {},
