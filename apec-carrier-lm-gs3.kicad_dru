@@ -100,3 +100,13 @@
 (rule "Pad to Track clearance)"
 	(constraint clearance (min 0.2mm))
 	(condition "A.isPlated() && B.Type == 'track' && A.Layer == B.Layer"))
+
+# Mains spacing. These must stay last: later rules take precedence, so otherwise the
+# fab minimums above would replace the net class clearance.
+(rule "230VAC-16A clearance"
+	(constraint clearance (min 2.4mm))
+	(condition "A.hasNetclass('230VAC-16A')"))
+
+(rule "230VAC-5A clearance"
+	(constraint clearance (min 2.4mm))
+	(condition "A.hasNetclass('230VAC-5A')"))
