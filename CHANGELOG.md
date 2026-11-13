@@ -25,6 +25,12 @@
   * Updated the I2C address summary, SD card note, and RTD reference filter note, and added notes for JP12, the SD card SPI bus selection resistors, and the FG304 ground separation
 * Added FW_NEXT.md, listing the firmware changes the EV3 hardware needs
 * Caps near USB D+- vias to/from In3 and correct impedance matching
+* Repository cleanup for the open source release (no electrical changes)
+  * The APEC SoM, Femtoprobe and logo libraries are now bundled from variegated-coffee/kicad-footprints, instead of being loaded from a local checkout
+  * The EyeSPI connector symbol moved to a new project library, APEC_Carrier.kicad_sym
+  * Removed unused libraries, and the library files of parts whose licences don't allow redistribution (they stay embedded in the schematic and PCB)
+  * Vendor 3D models are no longer in the repository; 3d-models/README.md lists where to get them
+  * Added README, licence, third-party notice, and engineering, IO and manufacturing notes
 
 ## EV1 to EV2
 
@@ -34,8 +40,7 @@
 * Moved fuse holders slightly closer together to ensure a better fuse fit
 * Used slightly larger pads for U5, U9-11
 * Added J6, a UART connector to the ESP32-C6, pin compatible with the LM IoT module
-  * Level shifted, with signalling voltage selectable by solder jumper on the back side, 5V is default, 3V3 is selectable
-  * If you really want to, and have a bodge wire, you could even shift it to 12V.
+  * Level shifted, with the signalling voltage set by solder jumpers on the back side: VIN (about 12 V) by default, or 5V or 3V3 with JP11 and JP1
 * Added and moved various silk screen texts
 * Added two on-board LEDs, connected to the TLC59108 LED driver
 * Added pull-down resistors for all relays and SSRs, to ensure the pumps, heating elements etc start as off
