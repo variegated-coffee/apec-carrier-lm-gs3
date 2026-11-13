@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "e139a564-2662-4239-a0d6-9c0ec99c8ef2")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "+12V_1"
 			(power global)
@@ -2518,17 +2525,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "12V 5W Power Supply"
+	(text "12V 10W Power Supply"
 		(exclude_from_sim no)
-		(at 169.164 106.172 0)
+		(at 170.18 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "402c962d-1f9d-4242-b166-2f766e155b60")
+		(uuid "0d778311-cf1b-4e4c-a60d-a6547781b29d")
 	)
-	(text "Do you need this boost converter? No. If you're designing a dev\nboard, it can however be nice to get a \"correct\" VIN voltage.\nThat way you get full ADC performance."
+	(text "U7 boosts USB_VBUS to 11.5 V on VIN through D2, so the board can\nrun from USB alone with a correct VIN voltage and full ADC\nperformance. With mains connected, U5 feeds VIN through D7."
 		(exclude_from_sim no)
 		(at 166.37 28.448 0)
 		(effects
@@ -2536,7 +2543,29 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "643bc7a0-ed53-45b4-9986-358a292848f1")
+		(uuid "39d948f2-a464-4984-8427-e40a4986a080")
+	)
+	(text "F2 and F3 are the two clips of one 5x20 mm fuse. It carries U5, the\nthree solenoids and, if fitted, the stock rotary pump, and protects the PCB.\nType: time-lag (T), ceramic high-breaking (H), 250 VAC.\nSuggested rating:\n230 VAC, stock rotary pump: T2.5A (about 1.6 A running)\n230 VAC, gear pump fed from J5, or no pump: T1A (about 0.4 A running)\n110 VAC, stock rotary pump: T4A (about 3.1 A running)\n110 VAC, gear pump fed from J5, or no pump: T1.6A (about 0.8 A running)\nRunning currents are estimates. Check your motor's nameplate, and keep\nat least 25% margin.\nMaximum: T5A, at either voltage. A T5A may hold 7.5 A for an hour, and the\n2.5 mm, 35 um tracks then rise about 30 K. Keep I2t well below 600 A2s."
+		(exclude_from_sim no)
+		(at 19.05 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "594ea732-5f56-4535-b01e-526013b19c0a")
+	)
+	(text "Ground domains:\nGND: main ground, and the return of U5.\nGND1: load cell ground. Joined to GND only at NT1.\nGNDA: ADC ground. No link to GND on this board: both go into the SoM (U1).\nGNDPWR: 24 V return, from J5 pin 1. Isolated from GND by U16.\nR2 (100M) is the only link, so GNDPWR can't float far from GND\nand develop high relative voltages."
+		(exclude_from_sim no)
+		(at 19.558 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "64a18f6c-64cb-40d3-931c-33fe2203e4c1")
 	)
 	(text "82/10 gives us 11.5 V output."
 		(exclude_from_sim no)
@@ -2561,7 +2590,7 @@
 		(uuid "0e020e25-5c1f-4453-bb5a-8459c6f46029")
 	)
 	(junction
-		(at 143.51 118.11)
+		(at 143.51 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e1fffa1-e748-4f63-8fe9-ec3b5c79fb7d")
@@ -2639,7 +2668,7 @@
 		(uuid "bc86b118-33b6-4b3d-b605-0bfbcb0e7532")
 	)
 	(junction
-		(at 143.51 104.14)
+		(at 143.51 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d69278c3-2454-4770-b044-8d67615a449e")
@@ -2708,6 +2737,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 123.19) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263be98d-29fe-4b54-ac5d-f6da854801d9")
+	)
+	(wire
+		(pts
 			(xy 57.15 162.56) (xy 60.96 162.56)
 		)
 		(stroke
@@ -2728,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 111.76) (xy 143.51 118.11)
+			(xy 143.51 116.84) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2785,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "4671d3c2-c9dd-4355-945a-7f323c3187fd")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc4eb23-7c69-4de1-8c87-a482bab1268b")
 	)
 	(wire
 		(pts
@@ -2868,16 +2917,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 138.43 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0254be-8ece-4689-a26e-f4e3298330b7")
-	)
-	(wire
-		(pts
 			(xy 193.04 113.03) (xy 195.58 113.03)
 		)
 		(stroke
@@ -2958,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 115.57) (xy 148.59 104.14)
+			(xy 148.59 115.57) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 111.76) (xy 73.66 111.76)
+			(xy 34.29 107.95) (xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 143.51 104.14)
+			(xy 137.16 109.22) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3068,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 121.92) (xy 73.66 121.92)
+			(xy 34.29 118.11) (xy 43.18 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 118.11) (xy 149.86 118.11)
+			(xy 143.51 123.19) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 118.11) (xy 143.51 118.11)
+			(xy 138.43 123.19) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 148.59 104.14)
+			(xy 143.51 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3217,7 @@
 	)
 	(global_label "PH_UNFUSED"
 		(shape passive)
-		(at 64.77 111.76 180)
+		(at 34.29 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3188,7 +3227,7 @@
 		)
 		(uuid "2527f8c4-399c-4fa3-bd05-d4b2357eb0ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6194 111.76 0)
+			(at 20.1394 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +3241,7 @@
 	)
 	(global_label "PH"
 		(shape passive)
-		(at 138.43 113.03 180)
+		(at 138.43 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3212,7 +3251,7 @@
 		)
 		(uuid "33d073a0-5d6b-47c8-8fd7-05730262badb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.9556 113.03 0)
+			(at 133.9556 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,7 +3265,7 @@
 	)
 	(global_label "PH"
 		(shape passive)
-		(at 64.77 121.92 180)
+		(at 34.29 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3236,7 +3275,7 @@
 		)
 		(uuid "48f9961a-c1c9-4ae2-b192-bf1bd2d5dd1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2956 121.92 0)
+			(at 29.8156 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,7 +3289,7 @@
 	)
 	(global_label "N"
 		(shape passive)
-		(at 107.95 104.14 180)
+		(at 137.16 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3260,7 +3299,7 @@
 		)
 		(uuid "53ad7404-7856-460a-a8f4-18b35bba3cc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.7456 104.14 0)
+			(at 133.9556 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +3480,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 140.97 118.11 0)
+		(at 140.97 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3451,7 +3490,7 @@
 		)
 		(uuid "b3f9fc34-89d9-44ad-ad7b-9bf06ebdf8fe")
 		(property "Netclass" "230VAC-16A"
-			(at 141.6685 115.57 0)
+			(at 141.6685 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,7 +3501,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -645.16 -325.12 0)
+			(at -645.16 -320.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4238,7 +4277,7 @@
 	)
 	(symbol
 		(lib_id "3519:3519")
-		(at 81.28 111.76 0)
+		(at 50.8 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4249,7 +4288,7 @@
 		(fields_autoplaced yes)
 		(uuid "3aaa8f7f-d762-4f47-804b-3f20e69c89e1")
 		(property "Reference" "F2"
-			(at 87.63 110.4899 0)
+			(at 57.15 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4260,7 +4299,7 @@
 			)
 		)
 		(property "Value" "3519"
-			(at 87.63 113.0299 0)
+			(at 57.15 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4271,7 +4310,7 @@
 			)
 		)
 		(property "Footprint" "3519:FUSE_3519"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4344,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +4356,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4368,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "3519"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4380,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.52mm"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4392,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4404,7 @@
 			)
 		)
 		(property "LCSC" "C3203912"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4375,7 +4414,7 @@
 			)
 		)
 		(property "Digikey" "36-3519-ND"
-			(at 81.28 111.76 0)
+			(at 50.8 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4409,7 +4448,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c09cb6b-bf66-4605-8b54-37ab04898da2")
 		(property "Reference" "U5"
 			(at 170.18 105.41 0)
@@ -4467,7 +4505,7 @@
 			)
 		)
 		(property "LCSC" "C6611438"
-			(at 149.86 115.57 0)
+			(at 149.86 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4477,7 +4515,7 @@
 			)
 		)
 		(property "Digikey" "1470-1117-ND"
-			(at 149.86 115.57 0)
+			(at 149.86 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5402,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "3519:3519")
-		(at 81.28 121.92 0)
+		(at 50.8 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5413,7 +5451,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6e94451-c5c9-46b2-b4c3-31f24da85791")
 		(property "Reference" "F3"
-			(at 87.63 120.6499 0)
+			(at 57.15 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5424,7 +5462,7 @@
 			)
 		)
 		(property "Value" "3519"
-			(at 87.63 123.1899 0)
+			(at 57.15 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5435,7 +5473,7 @@
 			)
 		)
 		(property "Footprint" "3519:FUSE_3519"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,7 +5485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5507,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5481,7 +5519,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,7 +5531,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "3519"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5543,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.52mm"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +5555,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5567,7 @@
 			)
 		)
 		(property "LCSC" "C3203912"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,7 +5577,7 @@
 			)
 		)
 		(property "Digikey" "36-3519-ND"
-			(at 81.28 121.92 0)
+			(at 50.8 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6348,7 +6386,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 143.51 107.95 180)
+		(at 143.51 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6358,7 +6396,7 @@
 		(dnp no)
 		(uuid "feb09f65-4e73-4642-a299-36a55a48f61f")
 		(property "Reference" "RV1"
-			(at 145.288 100.076 0)
+			(at 145.288 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6368,8 +6406,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B72205S0271K101"
-			(at 152.146 102.108 0)
+		(property "Value" "B72207S0271K101"
+			(at 152.146 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6379,8 +6417,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D9mm_W5.4mm_P5mm"
-			(at 145.288 107.95 90)
+		(property "Footprint" "APEC_Carrier:RV_Disc_D9mm_W5.4mm_P5mm_Drill0.9mm"
+			(at 145.288 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +6440,7 @@
 			)
 		)
 		(property "Description" "Voltage dependent resistor"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,7 +6451,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6462,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6473,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +6484,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +6495,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 143.51 107.95 0)
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6467,8 +6505,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C125480"
-			(at 143.51 107.95 0)
+		(property "LCSC" "C125493"
+			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,8 +6516,8 @@
 				)
 			)
 		)
-		(property "Digikey" "495-4636-ND"
-			(at 143.51 107.95 0)
+		(property "Digikey" "495-1408-ND"
+			(at 143.51 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

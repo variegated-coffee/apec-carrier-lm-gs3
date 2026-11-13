@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "ca0d4020-584e-49fd-9f6f-63cd99fd8ebd")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -750,6 +757,16 @@
 		)
 		(uuid "6107e0be-989d-4d8b-bcea-780f61b10f0c")
 	)
+	(text "R8 = 0R, C51 = 100 nF at the REFP1/REFN1 pins.\nREFP1 sits at AVDD, so its buffer must be off;\nthe unbuffered input draws ~4 uA/V, so any series\nresistance here makes the reference read low."
+		(exclude_from_sim no)
+		(at 63.754 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8464c685-789d-4486-b341-11a3cc5b99a7")
+	)
 	(text "RC filter at the ADC pin: 33K / 47 nF, ~100 Hz.\nCap on the ADC side: the sensor never sees it.\nThe 33K also limits fault current into the ADC\nif the signal wire is shorted."
 		(exclude_from_sim no)
 		(at 53.848 33.782 0)
@@ -765,6 +782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5207108e-69c5-4c13-97c6-3ddd8781e0fe")
+	)
+	(junction
+		(at 67.31 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6470fe67-499d-4555-9226-3fe75ca2289e")
 	)
 	(junction
 		(at 80.01 44.45)
@@ -783,6 +806,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffbd94c-58f9-43d3-8736-5fe3b5a64159")
+	)
+	(junction
+		(at 67.31 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f7510f-eac4-420a-9d96-a5b5eabc2014")
+	)
+	(junction
+		(at 58.42 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e126a128-2cfe-4304-acfa-b1072b12ec0d")
 	)
 	(wire
 		(pts
@@ -806,6 +841,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 151.13) (xy 58.42 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452b5399-6c5c-488a-bb61-7e09b3bf36e5")
+	)
+	(wire
+		(pts
+			(xy 55.88 146.05) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544ec010-0122-4565-9c50-658206e8b4d1")
+	)
+	(wire
+		(pts
 			(xy 46.99 46.99) (xy 50.8 46.99)
 		)
 		(stroke
@@ -813,6 +868,26 @@
 			(type default)
 		)
 		(uuid "6436fe9a-676e-47bb-94b8-422145fd853a")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 67.31 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c20de7-58d4-48c3-a17f-e16ab3c02f31")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 67.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e61ee8-af55-42f3-8806-ce51bc40c401")
 	)
 	(wire
 		(pts
@@ -896,6 +971,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 146.05) (xy 60.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e789a2-8b01-4e8d-bbd3-ab844b539344")
+	)
+	(wire
+		(pts
 			(xy 50.8 46.99) (xy 55.88 46.99)
 		)
 		(stroke
@@ -914,6 +999,16 @@
 		)
 		(uuid "f4c157dd-db7e-4d4b-bb66-9e5e6e3e06a6")
 	)
+	(wire
+		(pts
+			(xy 67.31 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff4d4f-b8e4-46a9-ba81-1d8fa45d74b6")
+	)
 	(global_label "ADC_AIN5"
 		(shape bidirectional)
 		(at 46.99 46.99 180)
@@ -927,6 +1022,30 @@
 		(uuid "3bf3ec32-c287-4f72-a96d-5c13a71abd00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.0639 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADC_REFP1"
+		(shape passive)
+		(at 55.88 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7443191c-bd99-458c-966c-93aa4a13f0e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4228 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -959,6 +1078,83 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 77.47 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24cb6b64-71be-488b-9301-bfcf87ebd6b2")
+		(property "Reference" "#PWR037"
+			(at 83.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 81.28 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4594c4f4-dc10-4695-8ae1-a6ec9144a4c8")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
+					(reference "#PWR037")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1266,6 +1462,117 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 67.31 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "608b06ed-08e5-459d-bc24-451c498bde4e")
+		(property "Reference" "C8"
+			(at 69.85 147.3262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF, C0G"
+			(at 69.85 149.8662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 67.31 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2182212"
+			(at 72.39 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71d8633d-9bca-4d2f-aed7-91c5fba8e9df")
+		)
+		(pin "2"
+			(uuid "b3c4468b-fd39-4ed9-ab43-1f54df764fd6")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2030,6 +2337,283 @@
 			(project "apec-carrier-lm-gs3"
 				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb813494-9fb7-406b-a5b6-3a25aef33be2")
+		(property "Reference" "C51"
+			(at 59.69 153.035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, >10V, X6S"
+			(at 59.69 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72b02adc-4ce1-4f03-bdf5-b26af97c6b97")
+		)
+		(pin "2"
+			(uuid "379e5167-9568-4855-b94b-5a677d53fe39")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 63.5 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfdf4517-510c-42d9-9c2b-2383ceda3c0b")
+		(property "Reference" "R8"
+			(at 63.5 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 63.5 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 63.5 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 63.5 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 60.198 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c169020-e95e-44ce-9503-23f70e98d9a7")
+		)
+		(pin "2"
+			(uuid "9d1f12df-a558-47d0-80e8-ba0007b9e3c0")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 76.2 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c76921ec-e6f8-4604-99c8-dfb14dc0f268")
+		(property "Reference" "#PWR051"
+			(at 72.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 80.01 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "524b5e78-295e-4e1b-9ca6-104c0f7fdb3e")
+		)
+		(instances
+			(project "apec-carrier-lm-gs3"
+				(path "/d56c44cf-3aeb-4510-a1c1-e4740ce481bf/31f8a69b-8b79-498b-8552-052912b97904"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

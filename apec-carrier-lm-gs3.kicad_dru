@@ -139,3 +139,9 @@
 (rule "230VAC-5A clearance"
 	(constraint clearance (min 2.4mm))
 	(condition "A.hasNetclass('230VAC-5A')"))
+
+# K1's normally-closed contact (pin 12) is not connected, so it has no net class, but it
+# carries line voltage whenever the relay is off. Treat it as mains. Keep this last.
+(rule "K1 NC contact clearance"
+	(constraint clearance (min 2.4mm))
+	(condition "A.memberOfFootprint('K1') && A.Pad_Number == '12'"))

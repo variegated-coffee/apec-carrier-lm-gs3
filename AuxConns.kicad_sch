@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "c5e482eb-8791-40e1-acb0-f558f52e8477")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -2339,7 +2346,18 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Verify pin order, Vcc, and the need for shifting \nto be compatible with the LM IoT module"
+	(text "JP5 sets the supply on J7 pin 1 (default +3V3). J7's signal reaches\nGP46 through R67 = 0R, and R68 is not fitted. GP46 is an ADC pin,\nlimited to IOVDD + 0.5 V. Before moving JP5 to +5V, change R67 and\nfit R68 as a divider."
+		(exclude_from_sim no)
+		(at 91.44 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "162f5096-58a0-4c2a-b6be-4a444c4be727")
+	)
+	(text "J6: UART connector to the ESP32-C6,\npin compatible with the LM IoT module."
 		(exclude_from_sim no)
 		(at 68.58 26.67 0)
 		(effects
@@ -2347,7 +2365,7 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ada18550-df73-448c-8d0d-da173328a9c0")
+		(uuid "dc21c997-d175-4880-8912-8de4af665362")
 	)
 	(junction
 		(at 40.64 88.9)

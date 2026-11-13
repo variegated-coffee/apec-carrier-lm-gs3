@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -265,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "EV3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -492,7 +492,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -672,6 +672,9 @@
         "12V-1A"
       ],
       "Net-(D2-A)": [
+        "PWR_DIST"
+      ],
+      "Net-(D24-K)": [
         "PWR_DIST"
       ],
       "Net-(D7-A)": [
@@ -1055,7 +1058,7 @@
         "uuid": "d56c44cf-3aeb-4510-a1c1-e4740ce481bf"
       }
     ],
-    "used_designators": "CN9-14,NT1,FL1,L1,F2-3,K1,SW3-6,C1-68,FB1,U1-7,U9-11,U13,U15-16,J2-19,J21,J25,D2,D4-23,#PWR1-130,#PWR136-146,#PWR148-156,#PWR159-168,#PWR170,#PWR174-209,#PWR213-233,R2,R4-82,R87-88,JP1-12,Q11-12,Q22-31,RV1-5",
+    "used_designators": "JP1-12,R2,R4-82,R87-88,RV1-5,Q11-12,Q22-31,#PWR1-131,#PWR136-146,#PWR148-156,#PWR159-168,#PWR170,#PWR174-209,#PWR213-233,D2,D4-23,C1-68,FB1,K1,SW3-6,U1-7,U9-11,U13,U15-16,F2-3,L1,FL1,J2-19,J21,J25,NT1,CN9-14",
     "variants": []
   },
   "sheets": [

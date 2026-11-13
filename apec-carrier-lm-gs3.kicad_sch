@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "d56c44cf-3aeb-4510-a1c1-e4740ce481bf")
-	(paper "A0")
+	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "APEC_SoM:Logo"
 			(exclude_from_sim no)
@@ -189,9 +196,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Build notes\n\nFitted, but excluded from the BOM, so source and fit these separately:\nU1 U5 U6 U9 U10 U11 K1 Q11 Q12 F2 F3 RV1 RV2 RV3 RV4 RV5\nC1 C2 C4 C53 C54 C56 C58 C63\nJ2 J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J18 J19 J21\n\nNot fitted (DNP), with no value chosen. These are spare footprints,\nin case a build turns out to need more bulk capacitance:\nC31 C32 C35 C36 C37 C39 C42 C43 C44 C45 C46 C47 C48 C57\n\nAlso not fitted (DNP):\nC8 R65 R68 CN9 CN10 CN11 CN12 CN13 CN14"
+		(exclude_from_sim no)
+		(at 210.82 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "241136a1-826c-43e8-9130-375a8b17b644")
+	)
 	(symbol
 		(lib_id "APEC_SoM:Logo")
-		(at 1159.51 43.18 0)
+		(at 63.5 15.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -202,7 +220,7 @@
 		(fields_autoplaced yes)
 		(uuid "346feed5-04bc-4bc2-9b7f-ac47bbeca2e4")
 		(property "Reference" "G1"
-			(at 1163.32 46.3549 0)
+			(at 67.31 18.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -213,7 +231,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1163.32 48.26 0)
+			(at 67.31 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -224,7 +242,7 @@
 			)
 		)
 		(property "Footprint" "APEC_SoM:VariegatedCoffeeLogo_Small"
-			(at 1159.51 43.18 0)
+			(at 63.5 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -235,7 +253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1159.51 43.18 0)
+			(at 63.5 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -246,7 +264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1159.51 43.18 0)
+			(at 63.5 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -267,7 +285,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 1165.86 25.4 0)
+		(at 52.07 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -278,7 +296,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a7f5341-1675-4600-8897-f8ebb2de744d")
 		(property "Reference" "H4"
-			(at 1168.4 24.1299 0)
+			(at 54.61 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -289,7 +307,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1168.4 26.6699 0)
+			(at 54.61 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -300,7 +318,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 1165.86 25.4 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -311,7 +329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1165.86 25.4 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -322,7 +340,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 1165.86 25.4 0)
+			(at 52.07 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -333,7 +351,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 1165.86 25.4 0)
+			(at 52.07 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -343,7 +361,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 1165.86 25.4 0)
+			(at 52.07 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -363,7 +381,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 1120.14 22.86 0)
+		(at 20.32 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -374,7 +392,7 @@
 		(fields_autoplaced yes)
 		(uuid "4add5e1d-4041-4e0c-8664-2b555141b092")
 		(property "Reference" "H1"
-			(at 1122.68 21.5899 0)
+			(at 22.86 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -385,7 +403,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1122.68 24.1299 0)
+			(at 22.86 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -396,7 +414,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 1120.14 22.86 0)
+			(at 20.32 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -407,7 +425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1120.14 22.86 0)
+			(at 20.32 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -418,7 +436,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 1120.14 22.86 0)
+			(at 20.32 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -429,7 +447,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 1120.14 22.86 0)
+			(at 20.32 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -439,7 +457,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 1120.14 22.86 0)
+			(at 20.32 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -459,7 +477,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 1148.08 25.4 0)
+		(at 41.91 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -470,7 +488,7 @@
 		(fields_autoplaced yes)
 		(uuid "55a54bae-19ca-4d60-af8f-a4177be41249")
 		(property "Reference" "H3"
-			(at 1150.62 24.1299 0)
+			(at 44.45 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -481,7 +499,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1150.62 26.6699 0)
+			(at 44.45 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -492,7 +510,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 1148.08 25.4 0)
+			(at 41.91 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -503,7 +521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1148.08 25.4 0)
+			(at 41.91 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -514,7 +532,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 1148.08 25.4 0)
+			(at 41.91 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -525,7 +543,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 1148.08 25.4 0)
+			(at 41.91 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -535,7 +553,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 1148.08 25.4 0)
+			(at 41.91 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -555,7 +573,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 1132.84 25.4 0)
+		(at 31.75 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -566,7 +584,7 @@
 		(fields_autoplaced yes)
 		(uuid "771c83b3-e57d-488c-a72e-be417ea1fb4c")
 		(property "Reference" "H2"
-			(at 1135.38 24.1299 0)
+			(at 34.29 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -577,7 +595,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1135.38 26.6699 0)
+			(at 34.29 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -588,7 +606,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 1132.84 25.4 0)
+			(at 31.75 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -599,7 +617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1132.84 25.4 0)
+			(at 31.75 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -610,7 +628,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 1132.84 25.4 0)
+			(at 31.75 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -621,7 +639,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 1132.84 25.4 0)
+			(at 31.75 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -631,7 +649,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 1132.84 25.4 0)
+			(at 31.75 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -650,7 +668,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 300.99)
+		(at 50.8 30.48)
 		(size 21.59 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -666,7 +684,7 @@
 		)
 		(uuid "11007aad-1d5c-400e-8b26-b91030e674b0")
 		(property "Sheetname" "Power"
-			(at 135.89 300.2784 0)
+			(at 50.8 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -677,7 +695,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 135.89 325.7046 0)
+			(at 50.8 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -696,7 +714,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 457.2)
+		(at 85.09 114.3)
 		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -712,7 +730,7 @@
 		)
 		(uuid "19fab626-ff3e-40ac-b896-da20cc4b8669")
 		(property "Sheetname" "RTC and QWIIC"
-			(at 175.26 456.4884 0)
+			(at 85.09 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -723,7 +741,7 @@
 			)
 		)
 		(property "Sheetfile" "RTCQWIIC.kicad_sch"
-			(at 175.26 475.5646 0)
+			(at 85.09 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -742,7 +760,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 459.74)
+		(at 74.93 87.63)
 		(size 17.78 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -758,7 +776,7 @@
 		)
 		(uuid "1b7cdd9d-e853-433e-92da-216758fb938f")
 		(property "Sheetname" "Status LEDs"
-			(at 96.52 459.0284 0)
+			(at 74.93 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -769,7 +787,7 @@
 			)
 		)
 		(property "Sheetfile" "StatusLEDs.kicad_sch"
-			(at 96.52 478.1046 0)
+			(at 74.93 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -788,7 +806,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 401.32)
+		(at 48.26 87.63)
 		(size 17.78 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -804,7 +822,7 @@
 		)
 		(uuid "23c84bf6-b15a-45b7-b5aa-adeb8d3cf1dd")
 		(property "Sheetname" "Aux Connectors"
-			(at 203.2 400.6084 0)
+			(at 48.26 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -815,7 +833,7 @@
 			)
 		)
 		(property "Sheetfile" "AuxConns.kicad_sch"
-			(at 203.2 415.8746 0)
+			(at 48.26 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -834,7 +852,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 307.34)
+		(at 76.2 30.48)
 		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -850,7 +868,7 @@
 		)
 		(uuid "26c61a4c-eca6-4bb2-a225-1cbf025d0b5e")
 		(property "Sheetname" "Load cells"
-			(at 177.8 306.6284 0)
+			(at 76.2 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -861,7 +879,7 @@
 			)
 		)
 		(property "Sheetfile" "LoadCells.kicad_sch"
-			(at 177.8 319.3546 0)
+			(at 76.2 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -880,7 +898,7 @@
 		)
 	)
 	(sheet
-		(at 219.71 453.39)
+		(at 129.54 110.49)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -896,7 +914,7 @@
 		)
 		(uuid "31f8a69b-8b79-498b-8552-052912b97904")
 		(property "Sheetname" "Pressure Transducers"
-			(at 219.71 452.6784 0)
+			(at 129.54 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -907,7 +925,7 @@
 			)
 		)
 		(property "Sheetfile" "Pressure.kicad_sch"
-			(at 219.71 478.1046 0)
+			(at 129.54 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -926,7 +944,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 350.52)
+		(at 46.99 63.5)
 		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -942,7 +960,7 @@
 		)
 		(uuid "407607d7-3cd9-44c7-b106-c34e89983324")
 		(property "Sheetname" "SD Card"
-			(at 175.26 349.8084 0)
+			(at 46.99 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -953,7 +971,7 @@
 			)
 		)
 		(property "Sheetfile" "SDCard.kicad_sch"
-			(at 175.26 363.8046 0)
+			(at 46.99 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -972,7 +990,7 @@
 		)
 	)
 	(sheet
-		(at 146.05 505.46)
+		(at 80.01 162.56)
 		(size 16.51 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -988,7 +1006,7 @@
 		)
 		(uuid "428e9281-271e-4b59-8c6e-8f875422d61f")
 		(property "Sheetname" "Boiler Outputs"
-			(at 146.05 504.7484 0)
+			(at 80.01 161.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -999,7 +1017,7 @@
 			)
 		)
 		(property "Sheetfile" "BoilerOutputs.kicad_sch"
-			(at 146.05 525.0946 0)
+			(at 80.01 182.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1018,7 +1036,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 401.32)
+		(at 16.51 90.17)
 		(size 16.51 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1034,7 +1052,7 @@
 		)
 		(uuid "6ab5bc97-f59d-475b-aca8-a1c61529f606")
 		(property "Sheetname" "Gear Pump"
-			(at 167.64 400.6084 0)
+			(at 16.51 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1045,7 +1063,7 @@
 			)
 		)
 		(property "Sheetfile" "GearPump.kicad_sch"
-			(at 167.64 415.8746 0)
+			(at 16.51 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1064,7 +1082,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 504.19)
+		(at 121.92 161.29)
 		(size 19.05 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1098,7 @@
 		)
 		(uuid "94e35a57-af8f-4fc1-b6f0-f39ff3806218")
 		(property "Sheetname" "LV Connector"
-			(at 187.96 503.4784 0)
+			(at 121.92 160.5784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1091,7 +1109,7 @@
 			)
 		)
 		(property "Sheetfile" "LVConnector.kicad_sch"
-			(at 187.96 525.0946 0)
+			(at 121.92 182.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1110,7 +1128,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 459.74)
+		(at 44.45 116.84)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1126,7 +1144,7 @@
 		)
 		(uuid "a58ce696-4c1f-448f-99bf-cd040378fb31")
 		(property "Sheetname" "EyeSPI"
-			(at 134.62 459.0284 0)
+			(at 44.45 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1155,7 @@
 			)
 		)
 		(property "Sheetfile" "EyeSPI.kicad_sch"
-			(at 134.62 476.8346 0)
+			(at 44.45 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1156,7 +1174,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 400.05)
+		(at 115.57 60.96)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1172,7 +1190,7 @@
 		)
 		(uuid "afe491d4-c3e9-41c8-9960-1658b5d475d7")
 		(property "Sheetname" "24V Outputs"
-			(at 125.73 399.3384 0)
+			(at 115.57 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1183,7 +1201,7 @@
 			)
 		)
 		(property "Sheetfile" "24VOut.kicad_sch"
-			(at 125.73 418.4146 0)
+			(at 115.57 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1202,7 +1220,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 350.52)
+		(at 16.51 63.5)
 		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1218,7 +1236,7 @@
 		)
 		(uuid "ba55c72b-22a5-49de-aeae-af246925867f")
 		(property "Sheetname" "RTD"
-			(at 124.46 349.8084 0)
+			(at 16.51 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1229,7 +1247,7 @@
 			)
 		)
 		(property "Sheetfile" "RTD.kicad_sch"
-			(at 124.46 367.6146 0)
+			(at 16.51 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1248,7 +1266,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 303.53)
+		(at 16.51 30.48)
 		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1264,7 +1282,7 @@
 		)
 		(uuid "d51110aa-0c96-4fb9-814b-73393a19f2e4")
 		(property "Sheetname" "SoM"
-			(at 71.12 302.8184 0)
+			(at 16.51 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1275,7 +1293,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM.kicad_sch"
-			(at 71.12 329.5146 0)
+			(at 16.51 56.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1294,7 +1312,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 402.59)
+		(at 72.39 63.5)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1310,7 +1328,7 @@
 		)
 		(uuid "e4020605-667f-427a-8ff9-75a59622b0b1")
 		(property "Sheetname" "Relays and mains connectors"
-			(at 76.2 401.8784 0)
+			(at 72.39 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1321,7 +1339,7 @@
 			)
 		)
 		(property "Sheetfile" "RelaysAndMainsConnectors.kicad_sch"
-			(at 76.2 419.6846 0)
+			(at 72.39 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1340,7 +1358,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 347.98)
+		(at 102.87 29.21)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1356,7 +1374,7 @@
 		)
 		(uuid "efad2490-8abb-4944-bb83-d0f837279913")
 		(property "Sheetname" "USB"
-			(at 71.12 347.2684 0)
+			(at 102.87 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1367,7 +1385,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 71.12 366.3446 0)
+			(at 102.87 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1386,7 +1404,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 505.46)
+		(at 35.56 162.56)
 		(size 15.24 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1402,7 +1420,7 @@
 		)
 		(uuid "f1b87e84-c51f-45e4-8adf-9ec75a40e7e5")
 		(property "Sheetname" "Capacitive"
-			(at 101.6 504.7484 0)
+			(at 35.56 161.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1413,7 +1431,7 @@
 			)
 		)
 		(property "Sheetfile" "Capacitive.kicad_sch"
-			(at 101.6 523.8246 0)
+			(at 35.56 180.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

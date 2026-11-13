@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "07d02006-ad89-40b9-9ce8-c4fb8a32a679")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)
@@ -1073,7 +1080,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Using an SD card is optional. The card runs in\n1-bit SPI mode. R1/R3/R83 or R84-R86 (below)\nselect which SPI bus it is on."
+	(text "Using an SD card is optional. The card runs in\n1-bit SPI mode on the EyeSPI bus (SPI0), with its\nown CS (GP41) and card detect (GP42)."
 		(exclude_from_sim no)
 		(at 120.396 28.448 0)
 		(effects
@@ -1081,7 +1088,7 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3dc80556-3689-443b-aeed-3dbf9641a292")
+		(uuid "d16670ae-bad7-4b8a-bbb7-bcff6cd1bc2b")
 	)
 	(junction
 		(at 53.34 58.42)

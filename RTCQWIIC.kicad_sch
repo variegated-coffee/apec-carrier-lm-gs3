@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "99f1470b-2de5-4c33-b0be-10b01b327b00")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB(LF)(SN)"
 			(pin_names
@@ -1643,7 +1650,7 @@
 		)
 		(uuid "30b1b6bb-58ed-47a2-aaba-c9778f84122a")
 	)
-	(text "A second QWIIC port on the same bus however doesn't require additional pull-ups."
+	(text "All connectors on this bus (J4, J15, J16 and the display\nconnectors J13, J17) share R13 and R15, and need no\nadditional pull-ups."
 		(exclude_from_sim no)
 		(at 58.166 94.742 0)
 		(effects
@@ -1651,9 +1658,9 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "bc552f3d-5ae2-48a7-8eb4-1ceefdf36aa0")
+		(uuid "5bc4a80a-956f-4e49-9439-73d4439dcb34")
 	)
-	(text "I2C requires pull-ups. Technically you could use pull-ups \nin the MCU, but using discrete pull-ups means less problems\nat reset."
+	(text "R13 and R15 are the I2C0 pull-ups. Discrete pull-ups are\nused rather than pull-ups in the MCU, to avoid problems\nat reset."
 		(exclude_from_sim no)
 		(at 58.166 56.642 0)
 		(effects
@@ -1661,7 +1668,7 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f1c17fb8-c6dd-4f6e-84f4-fe35a6b5f666")
+		(uuid "92db27c7-7336-451c-a649-f7d4ad373193")
 	)
 	(junction
 		(at 170.18 29.21)

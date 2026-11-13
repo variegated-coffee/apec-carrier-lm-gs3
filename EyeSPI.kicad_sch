@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "5d509f37-500d-41d7-b8a2-c6f8c97dafae")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "+12V_2"
 			(power global)

@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "b3235cbf-3fe1-4e97-9e86-16b40c98d1ef")
 	(paper "A4")
+	(title_block
+		(title "APEC Carrier Board - LM GS3")
+		(date "2026-11-06")
+		(rev "EV3")
+		(company "Variegated Coffee")
+		(comment 1 "License: OHL-P")
+	)
 	(lib_symbols
 		(symbol "+24V_2"
 			(power global)
@@ -2579,6 +2586,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "U16 is an ADuM3221 drawn with the ADuM1200 symbol.\nThe pinouts are the same (ADuM3220/ADuM3221 datasheet)."
+		(exclude_from_sim no)
+		(at 60.96 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a1703892-ecde-4c1a-87c1-63ae545556b0")
 	)
 	(junction
 		(at 203.2 40.64)
