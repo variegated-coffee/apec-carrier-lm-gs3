@@ -195,6 +195,80 @@
 			)
 			(embedded_fonts no)
 		)
+	
+		(symbol
+		  "Graphics:Logo"
+		  (exclude_from_sim no)
+		  (in_bom yes)
+		  (on_board yes)
+		  (property "Reference" "G"
+		    (at 0 0 0)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Value" ""
+		    (at 0 0 0)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Footprint" ""
+		    (at 0 0 0)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		      (hide yes)
+		    )
+		  )
+		  (property "Datasheet" ""
+		    (at 0 0 0)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		      (hide yes)
+		    )
+		  )
+		  (property "Description" ""
+		    (at 0 0 0)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		      (hide yes)
+		    )
+		  )
+		  (symbol "Logo_0_1"
+		    (rectangle
+		      (start -2.54 -1.27)
+		      (end 2.54 -6.35)
+		      (stroke
+		        (width 0)
+		        (type default)
+		      )
+		      (fill
+		        (type none)
+		      )
+		    )
+		  )
+		  (symbol "Logo_1_1"
+		    (text "Logo"
+		      (at 0 -3.81 0)
+		      (effects
+		        (font
+		          (size 1.27 1.27)
+		        )
+		      )
+		    )
+		  )
+		  (embedded_fonts no)
+		)
 	)
 	(text "Build notes\n\nFitted, but excluded from the BOM, so source and fit these separately:\nU1 U5 U6 U9 U10 U11 K1 Q11 Q12 F2 F3 RV1 RV2 RV3 RV4 RV5\nC1 C2 C4 C53 C54 C56 C58 C63\nJ2 J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J18 J19 J21\n\nNot fitted (DNP), with no value chosen. These are spare footprints,\nin case a build turns out to need more bulk capacitance:\nC31 C32 C35 C36 C37 C39 C42 C43 C44 C45 C46 C47 C48 C57\n\nAlso not fitted (DNP):\nC8 R65 R68 CN9 CN10 CN11 CN12 CN13 CN14"
 		(exclude_from_sim no)
@@ -208,7 +282,7 @@
 		(uuid "241136a1-826c-43e8-9130-375a8b17b644")
 	)
 	(symbol
-		(lib_id "APEC_SoM:Logo")
+		(lib_id "Graphics:Logo")
 		(at 63.5 15.24 0)
 		(unit 1)
 		(body_style 1)
@@ -241,7 +315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APEC_SoM:VariegatedCoffeeLogo_Small"
+		(property "Footprint" "VariegatedCoffeeLogo:VariegatedCoffeeLogo_Small"
 			(at 63.5 15.24 0)
 			(hide yes)
 			(show_name no)
