@@ -1,12 +1,12 @@
 # APEC carrier (LM GS3) engineering notes
 
-What you need to know to wire, configure and write firmware for the carrier, revision EV3. GPIO and ADC channel assignments are in [IO.md](IO.md); firmware changes EV3 needs are in [FW_NEXT.md](FW_NEXT.md). Net names match the schematic.
+What you need to know to wire, configure and write firmware for the carrier, revision R1A. GPIO and ADC channel assignments are in [IO.md](IO.md). Net names match the schematic.
 
 ## Power
 
 | Rail | Source | Feeds |
 | ---- | ------ | ----- |
-| VIN (about 12 V) | U5 (XP Power ECE10US12, 12 V 10 W AC/DC) through D7, or U7 (AP3012 boost from USB VBUS, 11.5 V) through D2 | SoM VIN (pins 79–80), relay coils, SSR outputs CN10/CN11, J13 pin 19, JP11 |
+| VIN (about 12 V) | U5 (XP Power ECE10US12, 12 V 10 W AC/DC) through D7 (U5's output, before D7, is 12V_ACDC), or U7 (AP3012 boost from USB VBUS, 11.5 V) through D2 | SoM VIN (pins 79–80), relay coils, SSR outputs CN10/CN11, J13 pin 19, JP11 |
 | +3V3, +5V, +5VA | APEC SoM regulators | Logic, sensors (+5VA powers the pressure transducers and the ADC reference for them) |
 | +24V | External, J5 pin 2 (return GNDPWR on pin 1). Nothing on the board generates it. | Gear pump connector CN9, 24 V outputs CN13/CN14, U15 |
 | 12V_ISO | U15 (L78L12) from +24V | 24 V side of the isolated gate driver U16 |
@@ -23,8 +23,10 @@ What you need to know to wire, configure and write firmware for the carrier, rev
 | ------ | --- | ----------- |
 | GND | Main ground, and the return of U5 | — |
 | GND1 | Load cells (NAU7802) | Joined to GND only at the net tie NT1 |
-| GNDA | ADC ground (RTDs, pressure transducers) | No link on the carrier: GND and GNDA are joined inside the SoM |
+| GNDA | ADC ground (RTDs, pressure transducers, +5VA) | Only at SoM pin 49 (GNDA), which the SoM ties to its ground plane. Nothing else on the carrier may join GNDA to GND: a second link would form a ground loop through the SoM. |
 | GNDPWR | 24 V return, from J5 pin 1 | Isolated by U16. R2 (100 MΩ) is the only link, so GNDPWR can't float far from GND. |
+
+GNDA follows the "separate GNDA area" layout described in the SoM's [ENGINEERING-NOTES.md](https://github.com/variegated-coffee/apec-som/blob/main/ENGINEERING-NOTES.md). The pressure transducers, the +5VA decoupling, the RTD reference resistor R5 (with REFN0 through R34) and the ADC filter capacitors all return to GNDA. AIN7 (SoM pin 48), REFN1 for the pressure inputs, is tied to GNDA next to pin 49.
 
 On the gear pump connector CN9, keep the FG signal ground (pin 3, GND) and the motor return (pin 5, GNDPWR) separate, as the FG304 datasheet requires.
 
@@ -96,7 +98,7 @@ Two RTD inputs on the SoM's ADS124S08, following TI's ratiometric reference desi
 | 4 | AIN0 (excitation) | AIN8 (excitation) |
 
 * For 3-wire or 4-wire RTDs, cut and solder the jumpers as described in TI SBAA275A, and change the filter parts. For PT100, change the filter resistors and capacitors.
-* EV3 values: R_Ref (R5) = 2K2; inputs 2 × 4K99 into 47 nF + 2 × 4.7 nF (about 323 Hz); reference REFP0 through R9 = 10K into C10 + C26 = 51.7 nF (about 308 Hz), REFN0 straight to R5 (R34 = 0R). **This needs the REFP0 buffer enabled in firmware**; with it on, R9 adds no meaningful error.
+* R1A values: R_Ref (R5) = 2K2; inputs 2 × 4K99 into 47 nF + 2 × 4.7 nF (about 323 Hz); reference REFP0 through R9 = 10K into C10 + C26 = 51.7 nF (about 308 Hz), REFN0 straight to R5 (R34 = 0R). **This needs the REFP0 buffer enabled in firmware**; with it on, R9 adds no meaningful error.
 * TI's alternative values: 4-wire (SBAA336b) or 2-wire (SBAA329b) RTD: R_Ref = 1.62K, R = 3.16K, C = 100 nF. 3-wire with two IDACs (SBAA330c): R_Ref = 820R, R = 4.02K, C = 100 nF.
 
 ### Pressure transducers (J19, J10)
@@ -111,7 +113,7 @@ Two channels of an NAU7802 (U2), pin 1 E+ (NAU7802_1_AVDD), pin 2 E− (GND1), p
 
 | Pin | Net | Function |
 | --- | --- | -------- |
-| 1 | MP_PADDLE_SW | Paddle switch, to GP20 |
+| 1 | MP_PADDLE_SW | Paddle switch, to GP20. No pull resistor on the board; see the E9 note below. |
 | 2 | AIN_POT_1 | Analog input, through a 10K / 15K divider to GP47 |
 | 3 | FLOW_METER_DATA | Flow meter pulses, to GP23, pulled up by R57 (10K) to FLOW_METER_VCC |
 | 4 | TANK_CIN | Tank level probe, to FDC1004 CIN4 through C23 |
@@ -119,6 +121,8 @@ Two channels of an NAU7802 (U2), pin 1 E+ (NAU7802_1_AVDD), pin 2 E− (GND1), p
 | 6 | FLOW_METER_VCC | Flow meter supply, +5V by default (JP2) |
 | 7 | GND | |
 | 8 | TANK_REF | Tank reference electrode |
+
+**Paddle switch and RP2350 erratum E9.** MP_PADDLE_SW has no pull resistor on the board, and it isn't known whether the GS3 MP's paddle switch needs a pull-up or a pull-down. The RP2350's internal pull-up works on every stepping, but on the A2 stepping, erratum E9 stops the internal pull-down from holding the pin low. When building for a GS3 MP, either make sure the SoM has an A4 RP2350, confirm that the switch needs a pull-up (which seems likely), or be prepared to bodge in an external pull-down of 8.2K or less.
 
 ### Capacitive level sensing
 
@@ -128,7 +132,7 @@ Two channels of an NAU7802 (U2), pin 1 E+ (NAU7802_1_AVDD), pin 2 E− (GND1), p
 ## Expansion and debug
 
 * **I2C0** (GP16/GP17): DS3231 RTC (U13, 0x68) with a backup battery on CN12, Qwiic connectors J15/J16, header J4 (GND, 3V3, SDA, SCL) and the display connectors. R13/R15 (10K) are the bus pull-ups; they're discrete, rather than the MCU's, to avoid problems at reset. Connected devices need no extra pull-ups.
-* **Display:** J13 (2×10 header) and J17 (18-pin FFC, EyeSPI pinout) carry SPI0, I2C0, the display control signals and +3V3; J13 also carries +5V (pin 20) and VIN (pin 19). SPI0 also serves the microSD slot J3, which runs in 1-bit SPI mode with its own chip select (GP41) and card detect (GP42). Using an SD card is optional.
+* **Display:** J13 and J17 carry SPI0, I2C0, the display control signals and +3V3. J17 is an 18-pin EyeSPI FFC connector. J13 is a 2×10 IDC header with the same signals, which this project calls "EyeDC-SPI" (EyeSPI over IDC); it also carries +5V (pin 20) and VIN (pin 19). SPI0 also serves the microSD slot J3, which runs in 1-bit SPI mode with its own chip select (GP41) and card detect (GP42). Using an SD card is optional.
 * **J6** (UART to the ESP32-C6, pin compatible with the LM IoT module): pin 1 GND, 2 ESP32 GPIO1, 3 ESP32 GPIO0, 4 signalling level, level shifted by Q29. See JP11 and JP1 below for the level.
 * **J7** (3-pin): supply (JP5), analog input to GP46, GND. **J21** (3-pin): +3V3, GP40, GND.
 * **Debug:** J25 (JST SH, SWCLK/GND/SWDIO) and the Femtoprobe footprint U6, which also connects to the SoM's USB hub port 4 and the ESP32-C6's UART0. Buttons: SW3 RP2350 BOOTSEL, SW4 RP2350 reset, SW5 ESP32-C6 reset (EN), SW6 ESP32-C6 GPIO9 (download mode).

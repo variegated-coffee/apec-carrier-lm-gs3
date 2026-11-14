@@ -1,6 +1,6 @@
 # APEC carrier (LM GS3) IO assignments
 
-How the carrier uses the APEC SoM's pins, revision EV3. Generated from the EV3 schematic netlist; net names match the schematic. SoM pin numbers are castellation numbers. See the SoM's [ENGINEERING-NOTES.md](https://github.com/variegated-coffee/apec-som/blob/main/ENGINEERING-NOTES.md) and [IO.md](https://github.com/variegated-coffee/apec-som/blob/main/IO.md) for what the SoM uses internally.
+How the carrier uses the APEC SoM's pins, revision R1A. Generated from the R1A schematic netlist; net names match the schematic. SoM pin numbers are castellation numbers. See the SoM's [ENGINEERING-NOTES.md](https://github.com/variegated-coffee/apec-som/blob/main/ENGINEERING-NOTES.md) and [IO.md](https://github.com/variegated-coffee/apec-som/blob/main/IO.md) for what the SoM uses internally.
 
 ## RP2350
 
@@ -21,7 +21,7 @@ How the carrier uses the APEC SoM's pins, revision EV3. Generated from the EV3 s
 | GP17 | 11 | QWIIC_SCL | I2C0 SCL |
 | GP18 | 10 | EYESPI_GP1 | Display GPIO 1 |
 | GP19 | 9 | EYESPI_GP2 | Display GPIO 2 |
-| GP20 | 8 | MP_PADDLE_SW | Paddle switch input (J9 pin 1) |
+| GP20 | 8 | MP_PADDLE_SW | Paddle switch input (J9 pin 1). No pull resistor on the board: see the E9 note in [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md#j9-low-voltage-inputs). |
 | GP21 | 7 | EYESPI_INT | Display interrupt |
 | GP22 | 6 | EYESPI_BUSY_TE | Display busy / tearing effect |
 | GP23 | 73 | FLOW_METER_DATA | Flow meter pulses (J9 pin 3), pulled up to FLOW_METER_VCC by R57. PWM3B, so a PWM slice can count pulses. |
@@ -49,8 +49,8 @@ Every RP2350 GPIO the SoM exposes is used.
 | Bus | Pins | Devices |
 | --- | ---- | ------- |
 | SPI0 | GP2/GP3/GP4 | EyeSPI display (J13, J17), microSD (J3, chip select GP41). The display module's own chip selects are on GP12–GP15. |
-| I2C0 | GP16 (SDA), GP17 (SCL) | DS3231 RTC (U13) at 0x68, Qwiic connectors J15 and J16, I2C header J4, display connectors J13 and J17. Pull-ups R13/R15 (10K) on the carrier; add no others. |
-| I2C1 | GPIO38/39 (SoM internal, castellations 34/33, INT_SDA/INT_SCL) | NAU7802 (U2) at 0x2A, through the Q30 level shifter, and the SoM's FDC1004 at 0x50 |
+| I2C0 | GP16 (SDA), GP17 (SCL) | DS3231 RTC (U13) at 0x68, Qwiic connectors J15 and J16, I2C header J4, display connectors J13 and J17. Pull-ups R13/R15 (10K) on the carrier, so further pull-ups are typically not needed. |
+| I2C1 | GPIO38/39 (SoM internal). Castellations 34/33: INT_SDA/INT_SCL on this board, I2C1_SDA/I2C1_SCL in the SoM's notes | NAU7802 (U2) at 0x2A, through the Q30 level shifter, and the SoM's FDC1004 at 0x50 |
 | SPI1 | SoM internal | Not used on the carrier |
 | UART1 | SoM internal | RP2350–ESP32-C6 link |
 
@@ -78,7 +78,7 @@ Every RP2350 GPIO the SoM exposes is used.
 | AIN10 | ADC_AIN10 | RTD 2, J8 pin 2 through R20 |
 | AIN11 | ADC_AIN11 | RTD 2, J8 pin 2 through JP9 (open by default) |
 
-The GS3 firmware reads the brew pressure on AIN4 and the steam pressure on AIN5. [FW_NEXT.md](FW_NEXT.md) has the reference-buffer settings EV3 needs.
+The GS3 firmware reads the brew pressure on AIN4 and the steam pressure on AIN5.
 
 ## FDC1004 (on the SoM)
 
@@ -89,7 +89,7 @@ The GS3 firmware reads the brew pressure on AIN4 and the steam pressure on AIN5.
 | CIN1, CIN2 | — | Not connected |
 | SHLD1, SHLD2 | FDC_SHLD1, FDC_SHLD2 | Tied together by JP12 (bridged by default) |
 
-With JP12 bridged, use single-ended measurements only; see FW_NEXT.md, item 5.
+With JP12 bridged, use single-ended measurements only; see [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md).
 
 ## ESP32-C6 (on the SoM)
 

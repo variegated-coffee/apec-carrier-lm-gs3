@@ -1712,6 +1712,11 @@
 			)
 		)
 	)
+  (text "RP2350 erratum E9 and the paddle switch (MP_PADDLE_SW, J9 pin 1, GP20):\nThis board has no pull resistor on MP_PADDLE_SW, and it isn't known whether\nthe GS3 MP's paddle switch needs a pull-up or a pull-down. The RP2350's internal\npull-up works on every stepping, but on the A2 stepping E9 stops the internal\npull-down from holding the pin low. When building for a GS3 MP, either make sure\nthe SoM has an A4 RP2350, confirm that the switch needs a pull-up (which seems\nlikely), or be prepared to bodge in an external pull-down of 8.2K or less."
+    (at 127 59.69 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "1ca75e41-381a-4b5b-be49-bd3e7da7cf7c")
+  )
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 63.5 121.92 180)

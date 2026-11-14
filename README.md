@@ -1,8 +1,8 @@
 # APEC Carrier Board for the La Marzocco GS3
 
-![3D render of the APEC carrier board for the LM GS3, revision EV3](images/apec-carrier-lm-gs3-ev3.png)
+![3D render of the APEC carrier board for the LM GS3, revision R1A](images/apec-carrier-lm-gs3-r1a.png)
 
-*APEC carrier board EV3, rendered in KiCad without the APEC SoM fitted.*
+*APEC carrier board R1A, rendered in KiCad.*
 
 Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility.
 
@@ -19,7 +19,7 @@ This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and
   * On-board 12 V, 10 W AC/DC module (U5) for the low-voltage side
 * Two SSR control outputs for the brew and service boilers (CN10, CN11)
 * Isolated 24 V section, fed from an external 24 V supply (J5):
-  * Two low-side switched 24 V outputs for proportional solenoids (CN13, CN14), driven through an ADuM3221 isolated gate driver
+  * Two low-side switched 24 V outputs for (proportional) solenoids (CN13, CN14), driven through an ADuM3221 isolated gate driver - primarily intended for a proportional steam valve
   * A gear pump connector (CN9) with 5 V speed, direction and tacho signals, made for the FG304
 * Sensors:
   * Two RTD inputs (PT1000, ratiometric, on the SoM's ADS124S08)
@@ -28,7 +28,7 @@ This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and
   * Two capacitive level inputs (tank and boiler) on the SoM's FDC1004
   * Flow meter, paddle switch and potentiometer inputs
 * Display and expansion:
-  * EyeSPI connectors for a display module (J13 2×10 header and J17 18-pin FFC)
+  * EyeSPI connectors for a display module (J13 2×10 header and J17 18-pin FFC) - preferably the [APEC LM GS3 HMI Module](https://github.com/variegated-coffee/apec-lm-gs3-hmi-module)
   * Two Qwiic connectors, a 4-pin I2C header, and a DS3231 RTC with a battery connector
   * microSD card slot
   * UART connector, pin compatible with the LM IoT module (J6)
@@ -40,9 +40,11 @@ This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and
 
 ## Project status
 
-The current revision is EV3. It hasn't been manufactured yet; EV2 is the most recent revision that has been built. [CHANGELOG.md](CHANGELOG.md) lists what changed between revisions, and [FW_NEXT.md](FW_NEXT.md) lists the firmware changes EV3 needs.
+The current revision is R1A. It hasn't been manufactured yet; EV2 is the most recent revision that has been built. [CHANGELOG.md](CHANGELOG.md) lists what changed between revisions.
 
-The firmware is developed separately.
+There are a few changes between EV2 and R1A, so at this time, rather than manufacturing this yourself, you should probably check in with the Variegated Coffee Discord server to see if someone is willing to share the risk.
+
+The firmware is [developed separately](https://github.com/variegated-coffee/variegated-rs).
 
 ## ⚠️ Safety warning
 

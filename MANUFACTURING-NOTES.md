@@ -1,6 +1,6 @@
 # APEC carrier (LM GS3) manufacturing notes
 
-How to fabricate, assemble and bring up the carrier, revision EV3. EV3 hasn't been built yet; EV2 has. Values below come from the EV3 design files (KiCad 10). The production files are set up for JLCPCB, but any fab and assembler with the same capabilities will do.
+How to fabricate, assemble and bring up the carrier, revision R1A. R1A hasn't been built yet; EV2 has. Values below come from the R1A design files (KiCad 10). The production files are set up for JLCPCB, but any fab and assembler with the same capabilities will do.
 
 For pinouts and configuration, see [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md).
 
@@ -62,7 +62,7 @@ For pinouts and configuration, see [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md).
 
 **Do the first power-up from USB, with no mains connected.** The board runs from USB alone: U7 boosts USB VBUS to about 11.5 V on VIN.
 
-1. **USB power.** Connect J14 to a USB port (a powered hub if the port trips on the inrush). Check the rail LEDs, then measure VIN (about 11.5 V), +3V3, +5V and +5VA.
+1. **USB power.** Connect J14 to a USB port (a powered hub if the port trips on the inrush). Check the rail LEDs: on USB power alone, only USB_VBUS and +3V3 light. +24V and 12V_ISO stay off until J5 is fed, and 12V_ACDC until mains is connected. There's no VIN LED, so measure VIN (about 11.5 V), +3V3, +5V and +5VA.
 2. **Program the SoM.** Hold SW3 (BOOTSEL) while pressing SW4 (reset) to enter the RP2350's USB bootloader. SW6 (ESP32-C6 GPIO9) and SW5 (ESP32-C6 reset) put the ESP32-C6 in download mode the same way. SWD is on J25, and on the Femtoprobe (U6) if fitted.
 3. **Outputs.** With firmware running, the indicator LEDs show each relay, SSR and 24 V output being switched.
 4. **24 V section.** Feed J5 from a current-limited 24 V bench supply (pin 2 +24V, pin 1 return). Check the +24V and 12V_ISO LEDs and the CN13/CN14 outputs with a dummy load.

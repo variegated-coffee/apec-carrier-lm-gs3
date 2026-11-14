@@ -1191,16 +1191,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This is part of the reference design from TI. The values for the\nfilter and the reference resistor should be selected to match the\nexcitation current and filter frequency (330 Hz).\n\nEV3: R_Ref (R5) = 2K2. Inputs: 2 x 4K99 into 47 nF + 2 x 4.7 nF\n-> ~323 Hz. Reference: REFN0 straight to R5 (R34 = 0R, buffer off\nat AVSS), REFP0 via R9 = 10K into C10 + C26 = 51.7 nF -> ~308 Hz.\nNeeds the REFP0 buffer enabled in firmware. C21 is shorted by R34.\nR9 needs no precision: with the REFP0 buffer on, only nA flow through\nit (< 0.2 mV error), so it only sets the filter corner.\n\nFor a 4 lead RTD (SBAA336b) or 2 lead RTD (SBAA329b): \nR_Ref = 1.62K\nR = 3.16K\nC = 100 nF\n\nFor a 3 lead RTD with two IDAC current sources (SBAA330c):\nR_Ref = 820R\nR = 4.02K\nC = 100 nF"
-		(exclude_from_sim no)
-		(at 81.788 168.402 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2267da5c-4492-4fc8-a9f5-240ec2ff5d79")
-	)
 	(text "This is basically just the reference design\nfrom TI. This filter (~323 Hz) should be frequency\nmatched to the filter on the reference resistor (~308 Hz)."
 		(exclude_from_sim no)
 		(at 66.294 21.59 0)
@@ -1220,6 +1210,16 @@
 			)
 		)
 		(uuid "39dcb652-bd68-4a1e-b560-2959303baabb")
+	)
+	(text "This is part of the reference design from TI. The values for the\nfilter and the reference resistor should be selected to match the\nexcitation current and filter frequency (330 Hz).\n\nR1A: R_Ref (R5) = 2K2. Inputs: 2 x 4K99 into 47 nF + 2 x 4.7 nF\n-> ~323 Hz. Reference: REFN0 straight to R5 (R34 = 0R, buffer off\nat AVSS), REFP0 via R9 = 10K into C10 + C26 = 51.7 nF -> ~308 Hz.\nNeeds the REFP0 buffer enabled in firmware. C21 is shorted by R34.\nR9 needs no precision: with the REFP0 buffer on, only nA flow through\nit (< 0.2 mV error), so it only sets the filter corner.\n\nFor a 4 lead RTD (SBAA336b) or 2 lead RTD (SBAA329b): \nR_Ref = 1.62K\nR = 3.16K\nC = 100 nF\n\nFor a 3 lead RTD with two IDAC current sources (SBAA330c):\nR_Ref = 820R\nR = 4.02K\nC = 100 nF"
+		(exclude_from_sim no)
+		(at 81.788 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8923762e-074b-4956-8fd5-85f58b4d8ab3")
 	)
 	(text "This is basically just the reference design\nfrom TI. This filter (~323 Hz) should be frequency\nmatched to the filter on the reference resistor (~308 Hz)."
 		(exclude_from_sim no)

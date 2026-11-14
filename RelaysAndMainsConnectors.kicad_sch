@@ -5453,6 +5453,11 @@
 			)
 		)
 	)
+  (text "RP2350 erratum E9 and pull-downs R51–R54:\nThe 10K pull-downs hold these outputs low despite E9. E9 (A2 stepping only)\nneeds a pin's input buffer on, its output off and its voltage between the logic\nlevels. After power-up or reset the input buffer is off, so the pull-down holds\nthe pin low, and once firmware drives the pin as an output, E9 can't occur.\nOn A2, firmware must drive an output low before releasing it, or turn off its\ninput buffer: pulling a released pin low against E9 needs 8.2K or less."
+    (at 203.2 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "01f167db-f6ec-401b-bb21-8a570d9aa3e9")
+  )
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 82.55 87.63 180)

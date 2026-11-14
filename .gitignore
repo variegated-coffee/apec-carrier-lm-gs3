@@ -6,6 +6,7 @@ _autosave-*
 fp-info-cache
 .DS_Store
 /.mcp.json
+/FW_NEXT.md
 
 # Fabrication outputs (attach them to a GitHub release instead)
 production/

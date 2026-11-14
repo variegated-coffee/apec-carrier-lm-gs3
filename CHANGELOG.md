@@ -1,15 +1,14 @@
 # Changelog
 
-## EV2 to EV3
+## EV2 to R1A
 
 * Added power rail indicator LEDs (D19-D23) with series resistors (R77-R81), one per rail: +24V, 12V_ISO, 12V_ACDC, USB_VBUS and 3V3
-* Named the AC/DC brick output net 12V_ACDC (previously unnamed), and assigned it the 12V-1A net class, same as 12V_ISO
 * Added isolation slots to the board outline
   * A diagonal slot in the 24V section, next to J5 and Q11
   * An L-shaped slot alongside the U10/U11 mechanical relays
 * Minor rerouting around the new LEDs, and of RP2350_SWCLK_POST_R
-* Added an EyeDC-SPI connector
-* Removed character display and buttons connectors (unnecessary with the Unimodule display module)
+* Added an EyeDC-SPI connector (J13): the EyeSPI signals on a 2×10 IDC header, plus +5V and VIN
+* Removed character display and buttons connectors - use either the APEC LM GS3 HMI module, or QWIIC adapters
 * Changed to a right-angle USB-C connector
 * Reworked the ADS124S08 reference inputs, which were loaded by series resistance on unbuffered reference inputs (~4 % gain error on the RTDs, previously compensated in firmware)
   * R34 (REFN0) changed from 4K99 to 0R
@@ -23,14 +22,7 @@
   * Relabelled the +12V power symbols as VIN, the name the net already had
   * Removed a dangling wire stub on J13 pin 7
   * Updated the I2C address summary, SD card note, and RTD reference filter note, and added notes for JP12, the SD card SPI bus selection resistors, and the FG304 ground separation
-* Added FW_NEXT.md, listing the firmware changes the EV3 hardware needs
 * Caps near USB D+- vias to/from In3 and correct impedance matching
-* Repository cleanup for the open source release (no electrical changes)
-  * The APEC SoM, Femtoprobe and logo libraries are now bundled from variegated-coffee/kicad-footprints, instead of being loaded from a local checkout
-  * The EyeSPI connector symbol moved to a new project library, APEC_Carrier.kicad_sym
-  * Removed unused libraries, and the library files of parts whose licences don't allow redistribution (they stay embedded in the schematic and PCB)
-  * Vendor 3D models are no longer in the repository; 3d-models/README.md lists where to get them
-  * Added README, licence, third-party notice, and engineering, IO and manufacturing notes
 
 ## EV1 to EV2
 

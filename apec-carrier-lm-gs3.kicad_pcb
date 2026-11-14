@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "APEC LM GS3 Carrier")
+		(date "2026-11-14")
+		(rev "R1A")
+		(company "Variegated Coffee")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power "In1.Gnd.Cu")
