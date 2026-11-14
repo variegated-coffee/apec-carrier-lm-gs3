@@ -36,7 +36,7 @@ This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and
 * SWD header and a Femtoprobe footprint for the RP2350, and buttons for the RP2350's BOOTSEL and reset and the ESP32-C6's reset and boot mode
 * Status LEDs for every output and power rail
 
-[ENGINEERING-NOTES.md](ENGINEERING-NOTES.md) has the details, [IO.md](IO.md) the GPIO assignments, and [MANUFACTURING-NOTES.md](MANUFACTURING-NOTES.md) how to build one.
+[ENGINEERING-NOTES.md](ENGINEERING-NOTES.md) has the details, [IO.md](IO.md) the GPIO assignments, [MANUFACTURING-NOTES.md](MANUFACTURING-NOTES.md) how to build one, and [docs/INSTALLATION.md](docs/INSTALLATION.md) how to install it in a GS3.
 
 ## Project status
 
