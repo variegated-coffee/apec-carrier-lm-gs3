@@ -38831,7 +38831,7 @@
 				)
 			)
 		)
-		(property "Value" "Molex 5051101892"
+		(property "Value" "Molex 525591853"
 			(at 0 -5.08 0)
 			(unlocked yes)
 			(layer "F.Fab")

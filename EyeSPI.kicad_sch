@@ -4669,7 +4669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Molex 5051101892"
+		(property "Value" "Molex 525591853"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
